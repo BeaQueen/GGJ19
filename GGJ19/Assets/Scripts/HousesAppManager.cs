@@ -3,7 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HousesAppScript : MonoBehaviour {
+public class HousesAppManager : MonoBehaviour
+{
+    #region Singleton
+    public static HousesAppManager Instance;
+
+    void Awake()
+    {
+        if (Instance == null)
+            Instance = gameObject.GetComponent<HousesAppManager>();
+    }
+    #endregion
+
+    public House[] gameHouses = new House[20];
+    public Customer[] gameCustomers = new Customer[20];
+
+
 
     bool appIn = false;
 
@@ -38,6 +53,7 @@ public class HousesAppScript : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+        /*
         zone = Random.Range(-5, 5);
         furniture = Random.Range(-5, 5);
         type = Random.Range(-5, 5);
@@ -50,7 +66,7 @@ public class HousesAppScript : MonoBehaviour {
         zone_Text.text = zone.ToString();
         furniture_Text.text = furniture.ToString();
         type_Text.text = type.ToString();
-
+        */
     }
 	
 	// Update is called once per frame
