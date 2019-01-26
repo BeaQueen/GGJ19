@@ -17,6 +17,11 @@ public class CustomerManager : MonoBehaviour
 
     public Customer[] gameCustomers = new Customer[20];
 
+    public void ShowCustomer(int gameCustomerIndex)
+    {
+
+    }
+
 
 
     bool appIn = false;

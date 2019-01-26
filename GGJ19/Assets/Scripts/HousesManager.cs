@@ -17,6 +17,11 @@ public class HousesManager : MonoBehaviour
 
     public House[] gameHouses = new House[20];
 
+    public void ShowHouse(int gameHouseIndex)
+    {
+
+    }
+
 
 
     bool appIn = false;
