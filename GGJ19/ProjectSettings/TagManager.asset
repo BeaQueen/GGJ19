@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: AppWindows
+    uniqueID: 1203654295
+    locked: 0
+  - name: Interface
+    uniqueID: 3707938609
+    locked: 0

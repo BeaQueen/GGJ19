@@ -2,12 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MainCanvasScript : MonoBehaviour {
+public class InterfaceCanvasScript : MonoBehaviour {
 
-
-   
-
-
+    public int asdf;
 
 	// Use this for initialization
 	void Start () {
@@ -18,6 +15,4 @@ public class MainCanvasScript : MonoBehaviour {
 	void Update () {
 		
 	}
-
-    void 
 }
