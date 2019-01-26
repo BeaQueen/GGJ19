@@ -2,22 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HousesAppScript : MonoBehaviour {
+public class House_ReportScript : MonoBehaviour {
 
-    bool appIn = false;
+  
 
     int total1;
     int total2;
     int total3;
+    
 
     // Use this for initialization
     void Start () {
-		
-	}
+      
+    }
 	
 	// Update is called once per frame
 	void Update () {
 		
+
+
 	}
 
     public void fill_total()
@@ -35,25 +38,4 @@ public class HousesAppScript : MonoBehaviour {
         total3 = furniture + vice;
 
     }
-
-    public void IntroHouses()
-    {
-        if (appIn == false)
-        {
-            this.GetComponent<Animator>().Play("AppIntro");
-            appIn = true;
-        }
-
-    }
-
-    public void OutroHouses()
-    {
-        if (appIn == true)
-        {
-            this.GetComponent<Animator>().Play("AppOutro");
-            appIn = false;
-        }
-
-    }
-
 }

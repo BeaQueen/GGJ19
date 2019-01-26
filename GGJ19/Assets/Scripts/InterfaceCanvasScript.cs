@@ -50,7 +50,7 @@ public class InterfaceCanvasScript : MonoBehaviour {
 
     public void ExplorerAppOutro()
     {
-        Debug.Log("OutroHouses");
+        Debug.Log("OutroExplorer");
         explorer.SendMessage("OutroExplorer");
     }
 
