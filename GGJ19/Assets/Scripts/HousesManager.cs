@@ -113,6 +113,7 @@ public class HousesManager : MonoBehaviour
         {
 
             button_next.interactable = false;
+            button_next.GetComponentInParent<GameObject>().SetActive(false);
 
         }
 

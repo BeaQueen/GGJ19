@@ -210,7 +210,7 @@ SpriteRenderer:
   m_SortingLayerID: 1203654295
   m_SortingLayer: 1
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: 4fbc89b6096d89c4e900ef05b4bbe6e1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 691304d53914f254a85bda17f5221d85, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -311,8 +311,8 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: -587028687
-  m_SortingOrder: 0
+  m_SortingLayerID: 706966771
+  m_SortingOrder: 5
   m_TargetDisplay: 0
 --- !u!114 &53741800
 MonoBehaviour:
@@ -343,13 +343,14 @@ GameObject:
   - component: {fileID: 93572267}
   - component: {fileID: 93572266}
   - component: {fileID: 93572265}
+  - component: {fileID: 93572270}
   m_Layer: 5
   m_Name: Houses_AppButton (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &93572264
 RectTransform:
   m_ObjectHideFlags: 0
@@ -512,6 +513,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 93572263}
   m_CullTransparentMesh: 0
+--- !u!114 &93572270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 93572263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac5119148fa5e34986be8527360e27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &97190038
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,13 +537,14 @@ GameObject:
   - component: {fileID: 97190042}
   - component: {fileID: 97190041}
   - component: {fileID: 97190040}
+  - component: {fileID: 97190045}
   m_Layer: 5
   m_Name: Houses_AppButton (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &97190039
 RectTransform:
   m_ObjectHideFlags: 0
@@ -694,6 +707,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 97190038}
   m_CullTransparentMesh: 0
+--- !u!114 &97190045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 97190038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac5119148fa5e34986be8527360e27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &101333565
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,13 +797,14 @@ GameObject:
   - component: {fileID: 109301132}
   - component: {fileID: 109301131}
   - component: {fileID: 109301130}
+  - component: {fileID: 109301135}
   m_Layer: 5
   m_Name: Houses_AppButton (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &109301129
 RectTransform:
   m_ObjectHideFlags: 0
@@ -942,6 +967,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 109301128}
   m_CullTransparentMesh: 0
+--- !u!114 &109301135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 109301128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac5119148fa5e34986be8527360e27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &119046639
 GameObject:
   m_ObjectHideFlags: 0
@@ -955,13 +991,14 @@ GameObject:
   - component: {fileID: 119046643}
   - component: {fileID: 119046642}
   - component: {fileID: 119046641}
+  - component: {fileID: 119046646}
   m_Layer: 5
   m_Name: Houses_AppButton (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &119046640
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1124,6 +1161,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 119046639}
   m_CullTransparentMesh: 0
+--- !u!114 &119046646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 119046639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac5119148fa5e34986be8527360e27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &119118672
 GameObject:
   m_ObjectHideFlags: 0
@@ -1523,13 +1571,14 @@ GameObject:
   - component: {fileID: 304976924}
   - component: {fileID: 304976923}
   - component: {fileID: 304976922}
+  - component: {fileID: 304976927}
   m_Layer: 5
   m_Name: Houses_AppButton (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &304976921
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1692,6 +1741,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 304976920}
   m_CullTransparentMesh: 0
+--- !u!114 &304976927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 304976920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac5119148fa5e34986be8527360e27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &342515444
 GameObject:
   m_ObjectHideFlags: 0
@@ -1923,7 +1983,7 @@ SpriteRenderer:
   m_SortingLayerID: 1203654295
   m_SortingLayer: 1
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: 4fbc89b6096d89c4e900ef05b4bbe6e1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 691304d53914f254a85bda17f5221d85, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2338,13 +2398,14 @@ GameObject:
   - component: {fileID: 477463395}
   - component: {fileID: 477463394}
   - component: {fileID: 477463393}
+  - component: {fileID: 477463398}
   m_Layer: 5
   m_Name: Houses_AppButton (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &477463392
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2507,6 +2568,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 477463391}
   m_CullTransparentMesh: 0
+--- !u!114 &477463398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 477463391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac5119148fa5e34986be8527360e27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &502105892
 GameObject:
   m_ObjectHideFlags: 0
@@ -2738,13 +2810,14 @@ GameObject:
   - component: {fileID: 577933949}
   - component: {fileID: 577933948}
   - component: {fileID: 577933947}
+  - component: {fileID: 577933952}
   m_Layer: 5
   m_Name: Houses_AppButton (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &577933946
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2907,6 +2980,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 577933945}
   m_CullTransparentMesh: 0
+--- !u!114 &577933952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 577933945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac5119148fa5e34986be8527360e27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &598245916
 GameObject:
   m_ObjectHideFlags: 0
@@ -2958,13 +3042,14 @@ GameObject:
   - component: {fileID: 644026997}
   - component: {fileID: 644026996}
   - component: {fileID: 644026995}
+  - component: {fileID: 644027000}
   m_Layer: 5
   m_Name: Houses_AppButton (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &644026994
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3127,6 +3212,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 644026993}
   m_CullTransparentMesh: 0
+--- !u!114 &644027000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 644026993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac5119148fa5e34986be8527360e27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &659471956
 GameObject:
   m_ObjectHideFlags: 0
@@ -3201,7 +3297,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: -587028687
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_TargetDisplay: 0
 --- !u!224 &659471960
 RectTransform:
@@ -3328,13 +3424,14 @@ GameObject:
   - component: {fileID: 675884253}
   - component: {fileID: 675884252}
   - component: {fileID: 675884251}
+  - component: {fileID: 675884256}
   m_Layer: 5
   m_Name: Houses_AppButton (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &675884250
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3497,6 +3594,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 675884249}
   m_CullTransparentMesh: 0
+--- !u!114 &675884256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 675884249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac5119148fa5e34986be8527360e27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &729972235
 GameObject:
   m_ObjectHideFlags: 0
@@ -3593,13 +3701,14 @@ GameObject:
   - component: {fileID: 740305657}
   - component: {fileID: 740305656}
   - component: {fileID: 740305655}
+  - component: {fileID: 740305660}
   m_Layer: 5
   m_Name: Houses_AppButton (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &740305654
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3762,6 +3871,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 740305653}
   m_CullTransparentMesh: 0
+--- !u!114 &740305660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 740305653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac5119148fa5e34986be8527360e27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &759297740
 GameObject:
   m_ObjectHideFlags: 0
@@ -3987,13 +4107,14 @@ GameObject:
   - component: {fileID: 886529646}
   - component: {fileID: 886529645}
   - component: {fileID: 886529644}
+  - component: {fileID: 886529649}
   m_Layer: 5
   m_Name: Houses_AppButton (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &886529643
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4156,6 +4277,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 886529642}
   m_CullTransparentMesh: 0
+--- !u!114 &886529649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 886529642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac5119148fa5e34986be8527360e27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &977071432
 GameObject:
   m_ObjectHideFlags: 0
@@ -4169,13 +4301,14 @@ GameObject:
   - component: {fileID: 977071436}
   - component: {fileID: 977071435}
   - component: {fileID: 977071434}
+  - component: {fileID: 977071439}
   m_Layer: 5
   m_Name: Houses_AppButton (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &977071433
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4338,6 +4471,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 977071432}
   m_CullTransparentMesh: 0
+--- !u!114 &977071439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 977071432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac5119148fa5e34986be8527360e27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1046859114
 GameObject:
   m_ObjectHideFlags: 0
@@ -4438,6 +4582,7 @@ GameObject:
   - component: {fileID: 1368904741}
   - component: {fileID: 1368904743}
   - component: {fileID: 1368904742}
+  - component: {fileID: 1368904744}
   m_Layer: 5
   m_Name: Tablet
   m_TagString: Untagged
@@ -4496,6 +4641,26 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1368904740}
   m_CullTransparentMesh: 0
+--- !u!223 &1368904744
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1368904740}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 1
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 706966771
+  m_SortingOrder: 5
+  m_TargetDisplay: 0
 --- !u!1 &1375301681
 GameObject:
   m_ObjectHideFlags: 0
@@ -4509,13 +4674,14 @@ GameObject:
   - component: {fileID: 1375301685}
   - component: {fileID: 1375301684}
   - component: {fileID: 1375301683}
+  - component: {fileID: 1375301688}
   m_Layer: 5
   m_Name: Houses_AppButton (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1375301682
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4678,6 +4844,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1375301681}
   m_CullTransparentMesh: 0
+--- !u!114 &1375301688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1375301681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac5119148fa5e34986be8527360e27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1477096721
 GameObject:
   m_ObjectHideFlags: 0
@@ -4809,13 +4986,14 @@ GameObject:
   - component: {fileID: 1486370804}
   - component: {fileID: 1486370803}
   - component: {fileID: 1486370802}
+  - component: {fileID: 1486370807}
   m_Layer: 5
   m_Name: Houses_AppButton (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1486370801
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4978,6 +5156,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1486370800}
   m_CullTransparentMesh: 0
+--- !u!114 &1486370807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1486370800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac5119148fa5e34986be8527360e27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1518762881
 GameObject:
   m_ObjectHideFlags: 0
@@ -5351,13 +5540,14 @@ GameObject:
   - component: {fileID: 1725322764}
   - component: {fileID: 1725322763}
   - component: {fileID: 1725322762}
+  - component: {fileID: 1725322767}
   m_Layer: 5
   m_Name: Houses_AppButton (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1725322761
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5520,6 +5710,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1725322760}
   m_CullTransparentMesh: 0
+--- !u!114 &1725322767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1725322760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac5119148fa5e34986be8527360e27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1790007647
 GameObject:
   m_ObjectHideFlags: 0
@@ -5614,6 +5815,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a7c5f75d69c6c24e8a904616a506a1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NumMapButtons: 20
+  mapButtons:
+  - {fileID: 1952128248}
+  - {fileID: 2145450257}
+  - {fileID: 577933945}
+  - {fileID: 304976920}
+  - {fileID: 1375301681}
+  - {fileID: 97190038}
+  - {fileID: 477463391}
+  - {fileID: 119046639}
+  - {fileID: 1725322760}
+  - {fileID: 1486370800}
+  - {fileID: 93572263}
+  - {fileID: 675884249}
+  - {fileID: 644026993}
+  - {fileID: 977071432}
+  - {fileID: 740305653}
+  - {fileID: 886529642}
+  - {fileID: 1952252885}
+  - {fileID: 2022559969}
+  - {fileID: 109301128}
+  - {fileID: 2076664253}
 --- !u!223 &1790007652
 Canvas:
   m_ObjectHideFlags: 0
@@ -5800,6 +6023,7 @@ GameObject:
   - component: {fileID: 1937899840}
   - component: {fileID: 1937899842}
   - component: {fileID: 1937899841}
+  - component: {fileID: 1937899843}
   m_Layer: 5
   m_Name: Slidebar 1
   m_TagString: Untagged
@@ -5860,6 +6084,26 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1937899839}
   m_CullTransparentMesh: 0
+--- !u!223 &1937899843
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1937899839}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 1
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 706966771
+  m_SortingOrder: 4
+  m_TargetDisplay: 0
 --- !u!1 &1952128248
 GameObject:
   m_ObjectHideFlags: 0
@@ -5873,13 +6117,14 @@ GameObject:
   - component: {fileID: 1952128252}
   - component: {fileID: 1952128251}
   - component: {fileID: 1952128250}
+  - component: {fileID: 1952128255}
   m_Layer: 5
   m_Name: Houses_AppButton (0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1952128249
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6042,6 +6287,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1952128248}
   m_CullTransparentMesh: 0
+--- !u!114 &1952128255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1952128248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac5119148fa5e34986be8527360e27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1952252885
 GameObject:
   m_ObjectHideFlags: 0
@@ -6055,13 +6311,14 @@ GameObject:
   - component: {fileID: 1952252889}
   - component: {fileID: 1952252888}
   - component: {fileID: 1952252887}
+  - component: {fileID: 1952252892}
   m_Layer: 5
   m_Name: Houses_AppButton (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1952252886
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6224,6 +6481,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1952252885}
   m_CullTransparentMesh: 0
+--- !u!114 &1952252892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1952252885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac5119148fa5e34986be8527360e27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1959781178
 GameObject:
   m_ObjectHideFlags: 0
@@ -6618,13 +6886,14 @@ GameObject:
   - component: {fileID: 2022559973}
   - component: {fileID: 2022559972}
   - component: {fileID: 2022559971}
+  - component: {fileID: 2022559976}
   m_Layer: 5
   m_Name: Houses_AppButton (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2022559970
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6787,6 +7056,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2022559969}
   m_CullTransparentMesh: 0
+--- !u!114 &2022559976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2022559969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac5119148fa5e34986be8527360e27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2076664253
 GameObject:
   m_ObjectHideFlags: 0
@@ -6800,13 +7080,14 @@ GameObject:
   - component: {fileID: 2076664257}
   - component: {fileID: 2076664256}
   - component: {fileID: 2076664255}
+  - component: {fileID: 2076664260}
   m_Layer: 5
   m_Name: Houses_AppButton (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2076664254
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6969,6 +7250,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2076664253}
   m_CullTransparentMesh: 0
+--- !u!114 &2076664260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2076664253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac5119148fa5e34986be8527360e27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2081349862
 GameObject:
   m_ObjectHideFlags: 0
@@ -7283,13 +7575,14 @@ GameObject:
   - component: {fileID: 2145450261}
   - component: {fileID: 2145450260}
   - component: {fileID: 2145450259}
+  - component: {fileID: 2145450264}
   m_Layer: 5
   m_Name: Houses_AppButton (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2145450258
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7452,6 +7745,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2145450257}
   m_CullTransparentMesh: 0
+--- !u!114 &2145450264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2145450257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cac5119148fa5e34986be8527360e27c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1736917185929821847
 Prefab:
   m_ObjectHideFlags: 0
