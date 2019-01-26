@@ -3,20 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HousesAppManager : MonoBehaviour
+public class HousesManager : MonoBehaviour
 {
     #region Singleton
-    public static HousesAppManager Instance;
+    public static HousesManager Instance;
 
     void Awake()
     {
         if (Instance == null)
-            Instance = gameObject.GetComponent<HousesAppManager>();
+            Instance = gameObject.GetComponent<HousesManager>();
     }
     #endregion
 
     public House[] gameHouses = new House[20];
-    public Customer[] gameCustomers = new Customer[20];
 
 
 
