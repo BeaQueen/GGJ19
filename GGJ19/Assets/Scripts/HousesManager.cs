@@ -66,6 +66,7 @@ public class HousesManager : MonoBehaviour
         furniture_Text.text = furniture.ToString();
         type_Text.text = type.ToString();
         */
+        fill_total();
     }
 	
 	// Update is called once per frame
@@ -113,7 +114,7 @@ public class HousesManager : MonoBehaviour
         {
 
             button_next.interactable = false;
-            button_next.GetComponentInParent<GameObject>().SetActive(false);
+            button_next.GetComponent<GameObject>().SetActive(false);
 
         }
 
