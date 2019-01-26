@@ -7,31 +7,43 @@ public class MapAppScript : MonoBehaviour {
 
     public int NumMapButtons = 20;
 
-    public Button[] mapButtons = new Button[20];
+    public GameObject[] mapButtons = new GameObject[20];
 
     bool appIn = true;
 
-	// Use this for initialization
-	void Start ()
+    int rndIndex;
+
+    int numActiveButtons;
+
+    // Use this for initialization
+    void Start ()
     {
-        int numActiveButtons = 0;
-
-        while (numActiveButtons < 10)
-        {
-            int rndIndex = Random.Range(0, NumMapButtons - 1);
-
-            if (!mapButtons[rndIndex].enabled)
-            {
-                mapButtons[rndIndex].enabled = true;
-                numActiveButtons++;
-            }
-        }
+        active_Buttons();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
 	}
+
+    public void active_Buttons()
+    {
+
+        while (numActiveButtons < 10)
+        {
+
+            rndIndex = Random.Range(0, NumMapButtons - 1);
+
+            if (mapButtons[rndIndex].activeSelf == false)
+            {
+                mapButtons[rndIndex].SetActive(true);
+                numActiveButtons++;
+            }
+            Debug.Log(mapButtons[rndIndex]);
+        }
+
+    }
+
 
     public void IntroMap()
     {
