@@ -13,6 +13,12 @@ public class Customer : MonoBehaviour
     //Profesión
     public int CustomerJob;
 
+    //Hijos
+    public int CustomerChildren;
+
+    //Mascotas
+    public int CustomerPets;
+
     // Start is called before the first frame update
     void Start()
     {
