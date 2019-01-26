@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class characters : MonoBehaviour
 {   //nombres personas
-    public string[] names = new string[20]; // { "Bea", "Erundino", "Nicasio", "Mia","Gervasio","Mari","Antonio"}
+    public string[] character_name = new string[20]; // { "Bea", "Erundino", "Nicasio", "Mia","Gervasio","Mari","Antonio"}
     //nombres de trabajos
     public string[] job_name = new string[20];
     //valores de trabajos
     public int[] job_value = new int[5];
 
 
+    /*
     void Start()
     {
         
-
         job_name[0] = "a";
         job_name[1] = "b";
         job_name[2] = "c";
@@ -48,7 +48,7 @@ public class characters : MonoBehaviour
 
         foreach (var v in job_value)
             Debug.Log(v);
-
-    }
+       
+    }*/
    }
 

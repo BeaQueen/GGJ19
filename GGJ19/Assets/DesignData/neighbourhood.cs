@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class neighbours : MonoBehaviour
 {
+    /*
     public string[] neighbourhood_name = new string[5];
     public int[] neighbourhood_value = new int[5];
 
@@ -13,4 +14,6 @@ public class neighbours : MonoBehaviour
         
     }
 
+}
+**/
 }
