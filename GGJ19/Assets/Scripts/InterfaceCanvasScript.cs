@@ -37,7 +37,6 @@ public class InterfaceCanvasScript : MonoBehaviour {
         Debug.Log("IntroHouses");
         houses.SendMessage("IntroHouses");
         Match_Button.interactable = true;
-
     }
 
     public void HousesAppOutro()
