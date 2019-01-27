@@ -22,26 +22,22 @@ public class InterfaceCanvasScript : MonoBehaviour {
 
     public void MapAppIntro()
     {
-        Debug.Log("IntroMap");
         map.SendMessage("IntroMap");
     }
 
     public void MapAppOutro()
     {
-        Debug.Log("OutroMap");
         map.SendMessage("OutroMap");
     }
 
     public void HousesAppIntro()
     {
-        Debug.Log("IntroHouses");
         houses.SendMessage("IntroHouses");
         Match_Button.interactable = true;
     }
 
     public void HousesAppOutro()
     {
-        Debug.Log("OutroHouses");
         houses.SendMessage("OutroHouses");
     }
 

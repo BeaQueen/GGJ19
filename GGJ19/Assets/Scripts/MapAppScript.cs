@@ -41,7 +41,6 @@ public class MapAppScript : MonoBehaviour {
                 mapButtons[rndIndex].SetActive(true);
                 numActiveButtons++;
             }
-            Debug.Log(mapButtons[rndIndex]);
         }
 
     }
