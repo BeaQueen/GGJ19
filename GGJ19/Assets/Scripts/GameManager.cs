@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     private int m_houseIndex;
     private int m_customerIndex;
     private bool[] m_customerSeen = new bool[20];
+    private bool[] m_customerDone = new bool[20];
 
     //Dinero
     private int m_accHousesMoney;
@@ -61,6 +62,9 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        for (int i = 0; i < 20; ++i)
+            m_customerDone[i] = false;
+
         HouseIndex = 0;
         CustomerIndex = 0;
 
@@ -70,8 +74,6 @@ public class GameManager : MonoBehaviour
 
         max_Next = 0;
         max_Match = 0;
-
-        
 }
 
     // Update is called once per frame
@@ -82,16 +84,15 @@ public class GameManager : MonoBehaviour
 
     public void StartGame(int gameHouseIndex)
     {
-        HouseIndex = gameHouseIndex;
-        CustomerIndex = 0;
+        for (int i = 0; i < 20; ++i)
+            m_customerSeen[i] = m_customerDone[i];
 
+        HouseIndex = gameHouseIndex;
         HousesManager.Instance.ShowHouse(gameHouseIndex);
-        CustomerManager.Instance.ShowCustomer(CustomerIndex);
+
+        NextCustomer();
 
         MapApp.GetComponent<MapAppScript>().mapButtons[gameHouseIndex].SetActive(false);
-
-        for (int i = 0; i < 20; ++i)
-            m_customerSeen[i] = false;
 
         //Mostrar y activar botón siguiente de customers
         Next_Button.interactable = true;
@@ -119,6 +120,8 @@ public class GameManager : MonoBehaviour
 
     public void Match()
     {
+        m_customerDone[CustomerIndex] = true;
+
         if (max_Match < 3)
         {
             int sumHouseMoney = HousesManager.Instance.CalculateHouseMoney(HouseIndex);
