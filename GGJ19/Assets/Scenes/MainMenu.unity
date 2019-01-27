@@ -180,9 +180,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: bc29670fed60f304ea532969641f97dd,
+    m_HighlightedSprite: {fileID: 21300000, guid: aeb1436fe4974f54a95eeff3550d527e,
       type: 3}
-    m_PressedSprite: {fileID: 21300000, guid: aeb1436fe4974f54a95eeff3550d527e, type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: bc29670fed60f304ea532969641f97dd, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -592,6 +592,17 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
