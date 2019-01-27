@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &1501954297424256745
+--- !u!1001 &6568860735507843764
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 6101281058223322536, guid: 8286c1355c951c847b14faee8e1ddd04,
         type: 3}
       propertyPath: m_Name
-      value: CustomerPrefab
+      value: CustomerPrefab (6)
       objectReference: {fileID: 0}
     - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
         type: 3}
@@ -75,43 +75,48 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
         type: 3}
+      propertyPath: CustomerJobStr
+      value: Necrotaxidermista
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
       propertyPath: CustomerJob
-      value: 900
+      value: 1500
       objectReference: {fileID: 0}
     - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
         type: 3}
       propertyPath: CustomerVirtueStr
-      value: Coleccionista
+      value: Pinta retratos
       objectReference: {fileID: 0}
     - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
         type: 3}
-      propertyPath: CustomerViceStr
-      value: Voxer
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerJobStr
-      value: Becaria
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerPetsStr
-      value: Ninguna
+      propertyPath: CustomerVirtue
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
         type: 3}
       propertyPath: CustomerVice
-      value: -100
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
         type: 3}
-      propertyPath: CustomerChildren
-      value: -100
+      propertyPath: CustomerViceStr
+      value: "Desentierra cad\xE1veres"
       objectReference: {fileID: 0}
     - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
         type: 3}
       propertyPath: CustomerChildrenStr
-      value: 5
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerChildren
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerPetsStr
+      value: Circo de pulgas
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8286c1355c951c847b14faee8e1ddd04, type: 3}

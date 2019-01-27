@@ -37,7 +37,7 @@ public class HousesManager : MonoBehaviour
     public int CalculateHouseMoney(int gameHouseIndex)
     {
         //Para BEA: Esto es solo de ejemplo. Hacerlo con la fórmula que sea
-        return gameHouses[gameHouseIndex].HouseZone + gameHouses[gameHouseIndex].HouseType + gameHouses[gameHouseIndex].HouseFurniture;
+        return gameHouses[gameHouseIndex].HouseZone + gameHouses[gameHouseIndex].HouseType;
     }
 
     // Use this for initialization
