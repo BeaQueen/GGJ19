@@ -127,7 +127,7 @@ public class GameManager : MonoBehaviour
 
     public void Match()
     {
-        if (max_Match < 1)
+        if (max_Match < 9)
         {
             int sumHouseMoney = HousesManager.Instance.CalculateHouseMoney(HouseIndex);
             int sumCustomerMoney = CustomerManager.Instance.CalculateCustomerMoney(CustomerIndex);
