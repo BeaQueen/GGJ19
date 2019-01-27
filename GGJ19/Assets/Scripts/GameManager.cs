@@ -50,11 +50,13 @@ public class GameManager : MonoBehaviour
     }
 
     int AccTotal;
+    int sumTotal;
     int max_Next;
     int max_Match;
 
     public Button Next_Button;
     public Button Match_Button;
+    public GameObject MapApp;
 
     // Start is called before the first frame update
     void Start()
@@ -87,14 +89,18 @@ public class GameManager : MonoBehaviour
         HousesManager.Instance.ShowHouse(gameHouseIndex);
         CustomerManager.Instance.ShowCustomer(CustomerIndex);
 
+        MapApp.GetComponent<MapAppScript>().mapButtons[gameHouseIndex].SetActive(false);
+
         //Mostrar y activar botón siguiente de customers
+        Next_Button.interactable = true;
+        max_Next = 0;
+
         //Mostrar y activar botón match
-        //Mostrar y activar botón de comprar pista
     }
 
     public void NextCustomer()
     {
-        if (max_Next < 10)
+        if (max_Next < 9)
         {
             //Random customer
             CustomerIndex = Random.Range(0, 19);
@@ -111,13 +117,16 @@ public class GameManager : MonoBehaviour
 
     public void Match()
     {
-        if (max_Match < 10)
+        if (max_Match < 3)
         {
             int sumHouseMoney = HousesManager.Instance.CalculateHouseMoney(HouseIndex);
             int sumCustomerMoney = CustomerManager.Instance.CalculateCustomerMoney(CustomerIndex);
 
-            AccTotal += sumCustomerMoney - sumHouseMoney;
+            sumTotal = sumCustomerMoney - sumHouseMoney;
 
+            Debug.Log("Total: " + sumTotal);
+
+            AccTotal += sumTotal;
             AccHousesMoney += sumHouseMoney;
             AccCustomersMoney += sumCustomerMoney;
 

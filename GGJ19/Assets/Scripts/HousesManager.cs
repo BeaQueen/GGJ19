@@ -22,6 +22,10 @@ public class HousesManager : MonoBehaviour
     public Text TextFurniture;
     public Text TextType;
 
+    public Text HouseValue;
+
+    int HouseValueTotal;
+
     bool appIn = false;
 
     int max_next;
@@ -32,13 +36,18 @@ public class HousesManager : MonoBehaviour
         TextZone.text = gameHouses[gameHouseIndex].HouseZoneStr;
         TextFurniture.text = gameHouses[gameHouseIndex].HouseFurnitureStr;
         TextType.text = gameHouses[gameHouseIndex].HouseTypeStr;
+        HouseValueTotal = gameHouses[gameHouseIndex].HouseZone + gameHouses[gameHouseIndex].HouseType + gameHouses[gameHouseIndex].HouseFurniture;
+        HouseValue.text = HouseValueTotal.ToString();
     }
 
     public int CalculateHouseMoney(int gameHouseIndex)
     {
         //Para BEA: Esto es solo de ejemplo. Hacerlo con la fórmula que sea
+        
         return gameHouses[gameHouseIndex].HouseZone + gameHouses[gameHouseIndex].HouseType + gameHouses[gameHouseIndex].HouseFurniture;
+     
     }
+
 
     // Use this for initialization
     void Start () {
