@@ -52,6 +52,7 @@ public class GameManager : MonoBehaviour
         HouseIndex = 0;
         CustomerIndex = 0;
 
+        //
         AccHousesMoney = 0;
         AccCustomersMoney = 0;
 }
