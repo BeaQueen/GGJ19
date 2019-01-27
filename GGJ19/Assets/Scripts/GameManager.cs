@@ -1,8 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-
 
 public class GameManager : MonoBehaviour
 {
@@ -48,13 +46,6 @@ public class GameManager : MonoBehaviour
         set { m_accCustomersMoney = value; }
     }
 
-    int AccTotal;
-    int max_Next;
-
-    public Button Next_Button;
-    public Button Match_Button;
-
-
     // Start is called before the first frame update
     void Start()
     {
@@ -64,12 +55,11 @@ public class GameManager : MonoBehaviour
         //Acumulaciones de dinero
         AccHousesMoney = 0;
         AccCustomersMoney = 0;
-    }
+}
 
     // Update is called once per frame
     void Update()
     {
-
     }
 
     public void StartGame(int gameHouseIndex)
@@ -87,15 +77,8 @@ public class GameManager : MonoBehaviour
 
     public void NextCustomer()
     {
-        if (max_Next < 10)
-        {
-            CustomerIndex++;
-            CustomerManager.Instance.ShowCustomer(CustomerIndex);
-            ++max_Next;
-            Debug.Log("Next: " + max_Next);
-        }
-        else
-            Next_Button.interactable = false;
+        CustomerIndex++;
+        CustomerManager.Instance.ShowCustomer(CustomerIndex);
     }
 
     public void Match()
@@ -103,18 +86,8 @@ public class GameManager : MonoBehaviour
         int sumHouseMoney = HousesManager.Instance.CalculateHouseMoney(HouseIndex);
         int sumCustomerMoney = CustomerManager.Instance.CalculateCustomerMoney(CustomerIndex);
 
-        AccTotal += sumCustomerMoney - sumHouseMoney;
-
         AccHousesMoney += sumHouseMoney;
         AccCustomersMoney += sumCustomerMoney;
-
-        Debug.Log("AccTotal: " + AccTotal);
-        Debug.Log("AccHousesMoney: " + AccHousesMoney);
-        Debug.Log("AccCustomersMoney: " + AccCustomersMoney);
-
-        Match_Button.interactable = false;
-
-
     }
 
     public void EndGame()
