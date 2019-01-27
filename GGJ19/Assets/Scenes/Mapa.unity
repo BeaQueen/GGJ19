@@ -5858,6 +5858,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  TextTitle: {fileID: 0}
   TextZone: {fileID: 0}
   TextFurniture: {fileID: 0}
   TextType: {fileID: 0}
@@ -8527,6 +8528,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1736917185306169536, guid: 0a29a1e428020044db97a51ca5404397,
+        type: 3}
+      propertyPath: TextZone
+      value: 
+      objectReference: {fileID: 119118676}
+    - target: {fileID: 1736917185306169536, guid: 0a29a1e428020044db97a51ca5404397,
+        type: 3}
+      propertyPath: TextFurniture
+      value: 
+      objectReference: {fileID: 435349145}
+    - target: {fileID: 1736917185306169536, guid: 0a29a1e428020044db97a51ca5404397,
+        type: 3}
+      propertyPath: TextType
+      value: 
+      objectReference: {fileID: 1916982837}
+    - target: {fileID: 1736917185306169536, guid: 0a29a1e428020044db97a51ca5404397,
+        type: 3}
+      propertyPath: TextTitle
+      value: 
+      objectReference: {fileID: 362715173}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a29a1e428020044db97a51ca5404397, type: 3}
 --- !u!4 &1736917185929821848 stripped
@@ -8602,6 +8623,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4538020906838244661, guid: 325e49a95261b91449dfcee092b19e66,
+        type: 3}
+      propertyPath: TextTitle
+      value: 
+      objectReference: {fileID: 2081349866}
+    - target: {fileID: 4538020906838244661, guid: 325e49a95261b91449dfcee092b19e66,
+        type: 3}
+      propertyPath: TextJob
+      value: 
+      objectReference: {fileID: 2010319641}
+    - target: {fileID: 4538020906838244661, guid: 325e49a95261b91449dfcee092b19e66,
+        type: 3}
+      propertyPath: TextVirtue
+      value: 
+      objectReference: {fileID: 1477096725}
+    - target: {fileID: 4538020906838244661, guid: 325e49a95261b91449dfcee092b19e66,
+        type: 3}
+      propertyPath: TextVici
+      value: 
+      objectReference: {fileID: 203058291}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 325e49a95261b91449dfcee092b19e66, type: 3}
 --- !u!4 &2392541027112928099 stripped

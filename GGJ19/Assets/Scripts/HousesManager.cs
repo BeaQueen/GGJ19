@@ -17,6 +17,7 @@ public class HousesManager : MonoBehaviour
 
     public House[] gameHouses = new House[20];
 
+    public Text TextTitle;
     public Text TextZone;
     public Text TextFurniture;
     public Text TextType;

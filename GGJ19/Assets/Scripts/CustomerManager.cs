@@ -17,6 +17,7 @@ public class CustomerManager : MonoBehaviour
 
     public Customer[] gameCustomers = new Customer[20];
 
+    public Text TextTitle;
     public Text TextVirtue;
     public Text TextVici;
     public Text TextJob;
