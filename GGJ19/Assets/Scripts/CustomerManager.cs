@@ -26,6 +26,7 @@ public class CustomerManager : MonoBehaviour
 
     public void ShowCustomer(int gameCustomerIndex)
     {
+        TextJob.text = gameCustomers[gameCustomerIndex].CustomerJobStr;
 
     }
 

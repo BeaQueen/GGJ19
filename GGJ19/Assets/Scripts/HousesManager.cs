@@ -24,7 +24,7 @@ public class HousesManager : MonoBehaviour
 
     public void ShowHouse(int gameHouseIndex)
     {
-
+        TextZone.text = gameHouses[gameHouseIndex].HouseZoneStr;
     }
 
     public int CalculateHouseMoney(int gameHouseIndex)

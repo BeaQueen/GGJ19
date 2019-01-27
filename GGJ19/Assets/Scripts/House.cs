@@ -8,8 +8,7 @@ public class House : MonoBehaviour
     //Zona
     public int HouseZone;
     public string HouseZoneStr;
-     
-
+    
     //Muebles
     public int HouseFurniture;
     public string HouseFurnitureStr;

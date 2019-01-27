@@ -6,7 +6,6 @@ public class InterfaceCanvasScript : MonoBehaviour {
 
     public GameObject map;
     public GameObject houses;
-    public GameObject explorer;
 
     // Use this for initialization
     void Start () {
@@ -40,18 +39,6 @@ public class InterfaceCanvasScript : MonoBehaviour {
     {
         Debug.Log("OutroHouses");
         houses.SendMessage("OutroHouses");
-    }
-
-    public void ExplorerAppIntro()
-    {
-        Debug.Log("IntroExplorers");
-        explorer.SendMessage("IntroExplorer");
-    }
-
-    public void ExplorerAppOutro()
-    {
-        Debug.Log("OutroExplorer");
-        explorer.SendMessage("OutroExplorer");
     }
 
 }
