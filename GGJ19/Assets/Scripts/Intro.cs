@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Credits : MonoBehaviour {
+public class Intro : MonoBehaviour {
 
 	public void ReturnButton()
 	{
@@ -13,7 +13,7 @@ public class Credits : MonoBehaviour {
 	{
 		if (Input.GetKey(KeyCode.Escape))
 		{
-			SceneManager.LoadScene("MainMenu");
+			SceneManager.LoadScene("Mapa");
 		}
 	}
 }
