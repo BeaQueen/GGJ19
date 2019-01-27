@@ -23,7 +23,6 @@ public class Customer : MonoBehaviour
     //Mascotas
     public int CustomerPets;
     public string CustomerPetsStr;
-
     public Sprite CustomerPhoto;
 
     // Start is called before the first frame update
