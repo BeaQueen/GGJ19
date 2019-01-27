@@ -71,8 +71,7 @@ public class GameManager : MonoBehaviour
         max_Next = 0;
         max_Match = 0;
 
-        for (int i = 0; i < 20; ++i)
-            m_customerSeen[i] = false;
+        
 }
 
     // Update is called once per frame
@@ -90,6 +89,9 @@ public class GameManager : MonoBehaviour
         CustomerManager.Instance.ShowCustomer(CustomerIndex);
 
         MapApp.GetComponent<MapAppScript>().mapButtons[gameHouseIndex].SetActive(false);
+
+        for (int i = 0; i < 20; ++i)
+            m_customerSeen[i] = false;
 
         //Mostrar y activar botón siguiente de customers
         Next_Button.interactable = true;
