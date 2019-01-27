@@ -17,9 +17,21 @@ public class CustomerManager : MonoBehaviour
 
     public Customer[] gameCustomers = new Customer[20];
 
+    public Text TextVirtue;
+    public Text TextVici;
+    public Text TextJob;
+    public Text TextChildren;
+    public Text TextPets;
+
     public void ShowCustomer(int gameCustomerIndex)
     {
 
+    }
+
+    public int CalculateCustomerMoney(int gameCustomerIndex)
+    {
+        //Para BEA: Esto es solo de ejemplo. Hacerlo con la fórmula que sea
+        return gameCustomers[gameCustomerIndex].CustomerChildren + gameCustomers[gameCustomerIndex].CustomerJob;
     }
 
 
@@ -43,14 +55,6 @@ public class CustomerManager : MonoBehaviour
     int job;
     int virtue;
     int vice;
-
-
-    public Text zone_Text;
-    public Text furniture_Text;
-    public Text type_Text;
-    public Text job_Text;
-    public Text virtue_Text;
-    public Text vice_Text;
 
     public Button button_next;
 
@@ -105,10 +109,6 @@ public class CustomerManager : MonoBehaviour
             Debug.Log("Total2: " + total2);
             Debug.Log("Total3: " + total3);
             Debug.Log("Total Final: " + total_final);
-
-            job_Text.text = job.ToString();
-            virtue_Text.text = virtue.ToString();
-            vice_Text.text = vice.ToString();
 
             ++max_next;
 

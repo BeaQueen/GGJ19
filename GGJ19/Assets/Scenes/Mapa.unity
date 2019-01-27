@@ -5858,13 +5858,9 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  zone_Text: {fileID: 119118676}
-  furniture_Text: {fileID: 435349145}
-  type_Text: {fileID: 1916982837}
-  job_Text: {fileID: 2010319641}
-  virtue_Text: {fileID: 1477096725}
-  vice_Text: {fileID: 203058291}
-  button_next: {fileID: 0}
+  TextZone: {fileID: 0}
+  TextFurniture: {fileID: 0}
+  TextType: {fileID: 0}
 --- !u!1 &1725322760
 GameObject:
   m_ObjectHideFlags: 0

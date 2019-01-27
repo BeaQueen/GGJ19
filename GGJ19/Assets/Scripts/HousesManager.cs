@@ -17,9 +17,19 @@ public class HousesManager : MonoBehaviour
 
     public House[] gameHouses = new House[20];
 
+    public Text TextZone;
+    public Text TextFurniture;
+    public Text TextType;
+
     public void ShowHouse(int gameHouseIndex)
     {
 
+    }
+
+    public int CalculateHouseMoney(int gameHouseIndex)
+    {
+        //Para BEA: Esto es solo de ejemplo. Hacerlo con la fórmula que sea
+        return gameHouses[gameHouseIndex].HouseZone + gameHouses[gameHouseIndex].HouseType;
     }
 
 
@@ -43,17 +53,6 @@ public class HousesManager : MonoBehaviour
     int job;
     int virtue;
     int vice;
-
-
-    public Text zone_Text;
-    public Text furniture_Text;
-    public Text type_Text;
-    public Text job_Text;
-    public Text virtue_Text;
-    public Text vice_Text;
-
-    public Button button_next;
-
 
     // Use this for initialization
     void Start () {
@@ -107,10 +106,6 @@ public class HousesManager : MonoBehaviour
             Debug.Log("Total3: " + total3);
             Debug.Log("Total Final: " + total_final);
 
-            job_Text.text = job.ToString();
-            virtue_Text.text = virtue.ToString();
-            vice_Text.text = vice.ToString();
-
             ++max_next;
 
         }
@@ -118,8 +113,6 @@ public class HousesManager : MonoBehaviour
         else
         {
 
-            button_next.interactable = false;
-            button_next.GetComponent<GameObject>().SetActive(false);
 
         }
 

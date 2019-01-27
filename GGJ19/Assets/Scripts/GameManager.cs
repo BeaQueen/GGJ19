@@ -69,8 +69,9 @@ public class GameManager : MonoBehaviour
         HousesManager.Instance.ShowHouse(gameHouseIndex);
         CustomerManager.Instance.ShowCustomer(CustomerIndex);
 
-        //Mostrar botón siguiente de customers
-        //Mostrar botón match
+        //Mostrar y activar botón siguiente de customers
+        //Mostrar y activar botón match
+        //Mostrar y activar botón de comprar pista
     }
 
     public void NextCustomer()
@@ -81,6 +82,16 @@ public class GameManager : MonoBehaviour
 
     public void Match()
     {
-        
+        int sumHouseMoney = HousesManager.Instance.CalculateHouseMoney(HouseIndex);
+        int sumCustomerMoney = CustomerManager.Instance.CalculateCustomerMoney(CustomerIndex);
+
+        AccHousesMoney += sumHouseMoney;
+        AccCustomersMoney += sumCustomerMoney;
+    }
+
+    public void EndGame()
+    {
+        //Hacer los cálculos entre AccHousesMoney y AccCustomersMoney, y
+        //mostrar el pop-up con el dinero/puntuación final
     }
 }
