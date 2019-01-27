@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class InterfaceCanvasScript : MonoBehaviour {
 
     public GameObject map;
     public GameObject houses;
+    public Button Match_Button;
 
     // Use this for initialization
     void Start () {
@@ -33,6 +36,8 @@ public class InterfaceCanvasScript : MonoBehaviour {
     {
         Debug.Log("IntroHouses");
         houses.SendMessage("IntroHouses");
+        Match_Button.interactable = true;
+
     }
 
     public void HousesAppOutro()
