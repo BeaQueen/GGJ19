@@ -1,127 +1,59 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &2565792505571279699
-PrefabInstance:
+--- !u!1 &3579976781495087505
+GameObject:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6101281058223322536, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_Name
-      value: CustomerPrefab (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerPhoto
-      value: 
-      objectReference: {fileID: 21300000, guid: f13c7370b0d738440b1d50a5a4b3dee2,
-        type: 3}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerJob
-      value: 3000
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerVirtueStr
-      value: Pinta cuadros
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerVirtue
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerJobStr
-      value: Paparazzi
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerChildrenStr
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerChildren
-      value: -85
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerVice
-      value: -30
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerViceStr
-      value: Swinger
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerPets
-      value: -60
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerPetsStr
-      value: Chinchilla
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8286c1355c951c847b14faee8e1ddd04, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8590506868136736507, guid: 9fd56fedf860d66458ae28655f5f32e7,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3579976781495087506}
+  - component: {fileID: 3579976781495087507}
+  m_Layer: 0
+  m_Name: CustomerPrefab (10) Variant
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3579976781495087506
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8590506868136736504, guid: 9fd56fedf860d66458ae28655f5f32e7,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3579976781495087505}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3579976781495087507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 8590506868136736505, guid: 9fd56fedf860d66458ae28655f5f32e7,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3579976781495087505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b03cc715e0f83c4a933a67d881429e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CustomerVirtue: 200
+  CustomerVirtueStr: Pinta cuadros
+  CustomerVice: -30
+  CustomerViceStr: Swinger
+  CustomerJob: 3000
+  CustomerJobStr: Paparazzi
+  CustomerChildren: -85
+  CustomerChildrenStr: 2
+  CustomerPets: -60
+  CustomerPetsStr: Chinchilla
+  CustomerPhoto: {fileID: 21300000, guid: 04ebf7a388b151d4a886e96d7672c692, type: 3}

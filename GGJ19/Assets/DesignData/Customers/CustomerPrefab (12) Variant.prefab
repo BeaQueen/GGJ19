@@ -1,122 +1,59 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &9782129856153805
-PrefabInstance:
+--- !u!1 &271540446845691897
+GameObject:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6101281058223322536, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_Name
-      value: CustomerPrefab (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerPhoto
-      value: 
-      objectReference: {fileID: 21300000, guid: f13c7370b0d738440b1d50a5a4b3dee2,
-        type: 3}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerJob
-      value: 3000
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerVirtueStr
-      value: Tiene un ducado
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerVirtue
-      value: 500
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerJobStr
-      value: Publicista
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerChildrenStr
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerChildren
-      value: -65
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerVice
-      value: -80
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerViceStr
-      value: Ropa de marca
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerPetsStr
-      value: Ninguna
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8286c1355c951c847b14faee8e1ddd04, type: 3}
+  m_CorrespondingSourceObject: {fileID: 6093047041309637989, guid: e0697a354ff95034da7545c725ad84e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 271540446845691898}
+  - component: {fileID: 271540446845691899}
+  m_Layer: 0
+  m_Name: CustomerPrefab (12) Variant
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &271540446845691898
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6093047041309637990, guid: e0697a354ff95034da7545c725ad84e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271540446845691897}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &271540446845691899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6093047041309637991, guid: e0697a354ff95034da7545c725ad84e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271540446845691897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b03cc715e0f83c4a933a67d881429e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CustomerVirtue: 500
+  CustomerVirtueStr: Tiene un ducado
+  CustomerVice: -80
+  CustomerViceStr: Ropa de marca
+  CustomerJob: 3000
+  CustomerJobStr: Publicista
+  CustomerChildren: -65
+  CustomerChildrenStr: 3
+  CustomerPets: 0
+  CustomerPetsStr: Ninguna
+  CustomerPhoto: {fileID: 21300000, guid: 04ebf7a388b151d4a886e96d7672c692, type: 3}

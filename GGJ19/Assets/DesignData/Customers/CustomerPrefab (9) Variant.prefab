@@ -1,127 +1,59 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &4041838971704757267
-PrefabInstance:
+--- !u!1 &660995996295351428
+GameObject:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6101281058223322536, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_Name
-      value: CustomerPrefab (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerPhoto
-      value: 
-      objectReference: {fileID: 21300000, guid: d910f649b2d3ae74380be4b794902bad,
-        type: 3}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerJobStr
-      value: Senior Game Dev
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerJob
-      value: 1500
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerVirtueStr
-      value: Papiroflexia
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerVirtue
-      value: 550
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerVice
-      value: -10
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerPetsStr
-      value: "Hur\xF3n"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerPets
-      value: -85
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerChildrenStr
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerChildren
-      value: -65
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerViceStr
-      value: Canta de madrugada
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8286c1355c951c847b14faee8e1ddd04, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7834968035490445755, guid: cccf0b4219e538a4a97902d5921aec6d,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 660995996295351429}
+  - component: {fileID: 660995996295351482}
+  m_Layer: 0
+  m_Name: CustomerPrefab (9) Variant
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &660995996295351429
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7834968035490445752, guid: cccf0b4219e538a4a97902d5921aec6d,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660995996295351428}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &660995996295351482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 7834968035490445753, guid: cccf0b4219e538a4a97902d5921aec6d,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660995996295351428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b03cc715e0f83c4a933a67d881429e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CustomerVirtue: 550
+  CustomerVirtueStr: Papiroflexia
+  CustomerVice: -10
+  CustomerViceStr: Canta de madrugada
+  CustomerJob: 1500
+  CustomerJobStr: Senior Game Dev
+  CustomerChildren: -65
+  CustomerChildrenStr: 1
+  CustomerPets: -85
+  CustomerPetsStr: "Hur\xF3n"
+  CustomerPhoto: {fileID: 21300000, guid: 04ebf7a388b151d4a886e96d7672c692, type: 3}

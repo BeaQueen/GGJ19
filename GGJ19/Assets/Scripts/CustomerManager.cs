@@ -35,6 +35,7 @@ public class CustomerManager : MonoBehaviour
         TextJob.text = gameCustomers[gameCustomerIndex].CustomerJobStr;
         TextChildren.text = gameCustomers[gameCustomerIndex].CustomerChildrenStr;
         TextPets.text = gameCustomers[gameCustomerIndex].CustomerPetsStr;
+        SpritePhoto.sprite = gameCustomers[gameCustomerIndex].CustomerPhoto;
     }
 
     public int CalculateCustomerMoney(int gameCustomerIndex)
