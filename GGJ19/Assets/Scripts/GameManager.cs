@@ -91,7 +91,7 @@ public class GameManager : MonoBehaviour
     public void StartGame(int gameHouseIndex)
     {
         HouseIndex = gameHouseIndex;
-        CustomerIndex = 0;
+        CustomerIndex = Random.Range(0, 19);
 
         HousesManager.Instance.ShowHouse(gameHouseIndex);
         CustomerManager.Instance.ShowCustomer(CustomerIndex);
