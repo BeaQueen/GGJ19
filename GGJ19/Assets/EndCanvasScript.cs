@@ -1,11 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class EndCanvasScript : MonoBehaviour
 {
 
     bool appIn = false;
+
+
+    public GameObject gameManager;
+
+   
+
 
 
     // Start is called before the first frame update
@@ -28,6 +37,11 @@ public class EndCanvasScript : MonoBehaviour
             appIn = true;
         }
 
+    }
+
+    public void MenuButton()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 
 }

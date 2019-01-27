@@ -57,6 +57,14 @@ public class GameManager : MonoBehaviour
     public Button Next_Button;
     public Button Match_Button;
     public GameObject MapApp;
+    public GameObject endCanvas;
+
+    public SpriteRenderer spriteEnd;
+    public Text totalText;
+
+    public Sprite winSprite;
+    public Sprite loseSprite;
+
 
     // Start is called before the first frame update
     void Start()
@@ -119,7 +127,7 @@ public class GameManager : MonoBehaviour
 
     public void Match()
     {
-        if (max_Match < 3)
+        if (max_Match < 1)
         {
             int sumHouseMoney = HousesManager.Instance.CalculateHouseMoney(HouseIndex);
             int sumCustomerMoney = CustomerManager.Instance.CalculateCustomerMoney(CustomerIndex);
@@ -148,5 +156,24 @@ public class GameManager : MonoBehaviour
     {
         //Hacer los cálculos entre AccHousesMoney y AccCustomersMoney, y
         //mostrar el pop-up con el dinero/puntuación final
+
+        totalText.text = AccTotal.ToString();
+
+        if (AccTotal > 0)
+        {
+            spriteEnd.sprite = winSprite;
+            totalText.color = Color.green;
+        }
+        else
+        {
+            spriteEnd.sprite = loseSprite;
+            totalText.color = Color.red;
+
+        }
+
+        endCanvas.SendMessage("IntroEndCanvas");
+
     }
+
+
 }

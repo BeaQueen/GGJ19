@@ -52,3 +52,9 @@ TagManager:
   - name: Buttons
     uniqueID: 706966771
     locked: 0
+  - name: EndCanvas
+    uniqueID: 4247126789
+    locked: 0
+  - name: EndCanvasButton
+    uniqueID: 2755865073
+    locked: 0
