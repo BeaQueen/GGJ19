@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &1501954297424256745
+--- !u!1001 &5325474048091269700
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 6101281058223322536, guid: 8286c1355c951c847b14faee8e1ddd04,
         type: 3}
       propertyPath: m_Name
-      value: CustomerPrefab
+      value: CustomerPrefab (18)
       objectReference: {fileID: 0}
     - target: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
         type: 3}
@@ -75,33 +75,38 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
         type: 3}
+      propertyPath: CustomerVirtue
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
       propertyPath: CustomerJob
-      value: 900
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerVirtueStr
-      value: Coleccionista
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerViceStr
-      value: Voxer
-      objectReference: {fileID: 0}
-    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
-        type: 3}
-      propertyPath: CustomerJobStr
-      value: Becaria
+      value: 8500
       objectReference: {fileID: 0}
     - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
         type: 3}
       propertyPath: CustomerPetsStr
-      value: Ninguna
+      value: Serpiente
       objectReference: {fileID: 0}
     - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
         type: 3}
-      propertyPath: CustomerVice
-      value: -100
+      propertyPath: CustomerJobStr
+      value: "Br\xF3ker"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtueStr
+      value: Dona sangre
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerPets
+      value: -85
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerChildrenStr
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
         type: 3}
@@ -110,8 +115,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
         type: 3}
-      propertyPath: CustomerChildrenStr
-      value: 5
+      propertyPath: CustomerViceStr
+      value: Ecologista
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8286c1355c951c847b14faee8e1ddd04, type: 3}
