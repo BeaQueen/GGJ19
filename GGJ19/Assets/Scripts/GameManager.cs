@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
     //Indices
     private int m_houseIndex;
     private int m_customerIndex;
+    private bool[] m_customerSeen = new bool[20];
 
     //Dinero
     private int m_accHousesMoney;
@@ -55,9 +56,6 @@ public class GameManager : MonoBehaviour
     public Button Next_Button;
     public Button Match_Button;
 
-    
-
-
     // Start is called before the first frame update
     void Start()
     {
@@ -67,7 +65,13 @@ public class GameManager : MonoBehaviour
         //Acumulaciones de dinero
         AccHousesMoney = 0;
         AccCustomersMoney = 0;
-    }
+
+        max_Next = 0;
+        max_Match = 0;
+
+        for (int i = 0; i < 20; ++i)
+            m_customerSeen[i] = false;
+}
 
     // Update is called once per frame
     void Update()
@@ -92,10 +96,14 @@ public class GameManager : MonoBehaviour
     {
         if (max_Next < 10)
         {
-            CustomerIndex++;
+            //Random customer
+            CustomerIndex = Random.Range(0, 19);
+            while (m_customerSeen[CustomerIndex])
+                CustomerIndex = Random.Range(0, 19);
+
+            m_customerSeen[CustomerIndex] = true;
             CustomerManager.Instance.ShowCustomer(CustomerIndex);
             ++max_Next;
-            Debug.Log("Next: " + max_Next);
         }
         else
             Next_Button.interactable = false;
@@ -103,7 +111,6 @@ public class GameManager : MonoBehaviour
 
     public void Match()
     {
-
         if (max_Match < 10)
         {
             int sumHouseMoney = HousesManager.Instance.CalculateHouseMoney(HouseIndex);
@@ -130,7 +137,5 @@ public class GameManager : MonoBehaviour
     {
         //Hacer los cálculos entre AccHousesMoney y AccCustomersMoney, y
         //mostrar el pop-up con el dinero/puntuación final
-
-
     }
 }
