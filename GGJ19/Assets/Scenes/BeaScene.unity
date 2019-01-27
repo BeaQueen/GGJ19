@@ -209,6 +209,12 @@ PrefabInstance:
       propertyPath: HouseTypeStr
       value: Apartamento
       objectReference: {fileID: 0}
+    - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
+        type: 3}
+      propertyPath: HouseTypeImg
+      value: 
+      objectReference: {fileID: 21300000, guid: aec5a328fd9cdb549a11636dd47a695a,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a43dc260a7c9b324da0426f9de006195, type: 3}
 --- !u!4 &3484605 stripped
@@ -314,6 +320,12 @@ PrefabInstance:
       propertyPath: HouseTypeStr
       value: Chabola
       objectReference: {fileID: 0}
+    - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
+        type: 3}
+      propertyPath: HouseTypeImg
+      value: 
+      objectReference: {fileID: 21300000, guid: d83f25c8e62ba37479b79b825d4afdef,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a43dc260a7c9b324da0426f9de006195, type: 3}
 --- !u!4 &61179885 stripped
@@ -389,6 +401,32 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerPhoto
+      value: 
+      objectReference: {fileID: 21300000, guid: 0c0d261db66b26d4c9347fda082b8b5d,
+        type: 3}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJobStr
+      value: Electricista
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJob
+      value: 1500
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtueStr
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtue
+      value: 300
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8286c1355c951c847b14faee8e1ddd04, type: 3}
 --- !u!4 &64710534 stripped
@@ -463,6 +501,32 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerPhoto
+      value: 
+      objectReference: {fileID: 21300000, guid: 0c0d261db66b26d4c9347fda082b8b5d,
+        type: 3}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJob
+      value: 900
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtueStr
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtue
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJobStr
+      value: Becario
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8286c1355c951c847b14faee8e1ddd04, type: 3}
@@ -569,6 +633,12 @@ PrefabInstance:
       propertyPath: HouseType
       value: 500
       objectReference: {fileID: 0}
+    - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
+        type: 3}
+      propertyPath: HouseTypeImg
+      value: 
+      objectReference: {fileID: 21300000, guid: 7243fbef0e6f1644a9fcee6f2adbf846,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a43dc260a7c9b324da0426f9de006195, type: 3}
 --- !u!4 &134046138 stripped
@@ -627,7 +697,7 @@ PrefabInstance:
     - target: {fileID: 1736917185306169551, guid: 0a29a1e428020044db97a51ca5404397,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1736917185306169551, guid: 0a29a1e428020044db97a51ca5404397,
         type: 3}
@@ -749,6 +819,12 @@ PrefabInstance:
       propertyPath: HouseTypeStr
       value: "Mansi\xF3n"
       objectReference: {fileID: 0}
+    - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
+        type: 3}
+      propertyPath: HouseTypeImg
+      value: 
+      objectReference: {fileID: 21300000, guid: 6494a08fa9264664890b8803fb582a47,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a43dc260a7c9b324da0426f9de006195, type: 3}
 --- !u!4 &184339794 stripped
@@ -854,6 +930,12 @@ PrefabInstance:
       propertyPath: HouseType
       value: 500
       objectReference: {fileID: 0}
+    - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
+        type: 3}
+      propertyPath: HouseTypeImg
+      value: 
+      objectReference: {fileID: 21300000, guid: 7243fbef0e6f1644a9fcee6f2adbf846,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a43dc260a7c9b324da0426f9de006195, type: 3}
 --- !u!4 &193490782 stripped
@@ -1009,6 +1091,12 @@ PrefabInstance:
       propertyPath: HouseTypeStr
       value: Chabola
       objectReference: {fileID: 0}
+    - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
+        type: 3}
+      propertyPath: HouseTypeImg
+      value: 
+      objectReference: {fileID: 21300000, guid: d83f25c8e62ba37479b79b825d4afdef,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a43dc260a7c9b324da0426f9de006195, type: 3}
 --- !u!4 &435601737 stripped
@@ -1083,6 +1171,52 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerPhoto
+      value: 
+      objectReference: {fileID: 21300000, guid: 0c0d261db66b26d4c9347fda082b8b5d,
+        type: 3}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJob
+      value: 900
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJobStr
+      value: Junior Game Dev
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerPetsStr
+      value: Peces
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerChildrenStr
+      value: Ninguno
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerViceStr
+      value: Hardcore Gamer
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVice
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtueStr
+      value: Game jammer
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtue
+      value: 1500
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8286c1355c951c847b14faee8e1ddd04, type: 3}
@@ -1189,6 +1323,12 @@ PrefabInstance:
       propertyPath: HouseTypeStr
       value: Chabola
       objectReference: {fileID: 0}
+    - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
+        type: 3}
+      propertyPath: HouseTypeImg
+      value: 
+      objectReference: {fileID: 21300000, guid: d83f25c8e62ba37479b79b825d4afdef,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a43dc260a7c9b324da0426f9de006195, type: 3}
 --- !u!4 &460574004 stripped
@@ -1294,6 +1434,12 @@ PrefabInstance:
       propertyPath: HouseTypeStr
       value: Palacete
       objectReference: {fileID: 0}
+    - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
+        type: 3}
+      propertyPath: HouseTypeImg
+      value: 
+      objectReference: {fileID: 21300000, guid: 6494a08fa9264664890b8803fb582a47,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a43dc260a7c9b324da0426f9de006195, type: 3}
 --- !u!4 &525139770 stripped
@@ -1368,6 +1514,22 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerPhoto
+      value: 
+      objectReference: {fileID: 21300000, guid: f13c7370b0d738440b1d50a5a4b3dee2,
+        type: 3}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJob
+      value: 900
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJobStr
+      value: Telefonista
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8286c1355c951c847b14faee8e1ddd04, type: 3}
@@ -1474,6 +1636,12 @@ PrefabInstance:
       propertyPath: HouseTypeStr
       value: "Mansi\xF3n"
       objectReference: {fileID: 0}
+    - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
+        type: 3}
+      propertyPath: HouseTypeImg
+      value: 
+      objectReference: {fileID: 21300000, guid: 6494a08fa9264664890b8803fb582a47,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a43dc260a7c9b324da0426f9de006195, type: 3}
 --- !u!4 &597803997 stripped
@@ -1579,6 +1747,12 @@ PrefabInstance:
       propertyPath: HouseType
       value: 500
       objectReference: {fileID: 0}
+    - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
+        type: 3}
+      propertyPath: HouseTypeImg
+      value: 
+      objectReference: {fileID: 21300000, guid: 7243fbef0e6f1644a9fcee6f2adbf846,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a43dc260a7c9b324da0426f9de006195, type: 3}
 --- !u!4 &614405752 stripped
@@ -1654,6 +1828,32 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerPhoto
+      value: 
+      objectReference: {fileID: 21300000, guid: f13c7370b0d738440b1d50a5a4b3dee2,
+        type: 3}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJob
+      value: 3000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtueStr
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtue
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJobStr
+      value: Paparazzi
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8286c1355c951c847b14faee8e1ddd04, type: 3}
 --- !u!4 &616228649 stripped
@@ -1712,7 +1912,7 @@ PrefabInstance:
     - target: {fileID: 2392541026930752118, guid: 325e49a95261b91449dfcee092b19e66,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2392541026930752118, guid: 325e49a95261b91449dfcee092b19e66,
         type: 3}
@@ -1834,6 +2034,12 @@ PrefabInstance:
       propertyPath: HouseType
       value: 500
       objectReference: {fileID: 0}
+    - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
+        type: 3}
+      propertyPath: HouseTypeImg
+      value: 
+      objectReference: {fileID: 21300000, guid: 7243fbef0e6f1644a9fcee6f2adbf846,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a43dc260a7c9b324da0426f9de006195, type: 3}
 --- !u!4 &821223405 stripped
@@ -1908,6 +2114,37 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerPhoto
+      value: 
+      objectReference: {fileID: 21300000, guid: f13c7370b0d738440b1d50a5a4b3dee2,
+        type: 3}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJob
+      value: 3000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVice
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtue
+      value: 550
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtueStr
+      value: Le gustan los documentales
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJobStr
+      value: Programmer Senior
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8286c1355c951c847b14faee8e1ddd04, type: 3}
@@ -2014,6 +2251,12 @@ PrefabInstance:
       propertyPath: HouseTypeStr
       value: "Mansi\xF3n"
       objectReference: {fileID: 0}
+    - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
+        type: 3}
+      propertyPath: HouseTypeImg
+      value: 
+      objectReference: {fileID: 21300000, guid: 6494a08fa9264664890b8803fb582a47,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a43dc260a7c9b324da0426f9de006195, type: 3}
 --- !u!4 &883496650 stripped
@@ -2119,6 +2362,12 @@ PrefabInstance:
       propertyPath: HouseTypeStr
       value: Casita
       objectReference: {fileID: 0}
+    - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
+        type: 3}
+      propertyPath: HouseTypeImg
+      value: 
+      objectReference: {fileID: 21300000, guid: aec5a328fd9cdb549a11636dd47a695a,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a43dc260a7c9b324da0426f9de006195, type: 3}
 --- !u!4 &944714799 stripped
@@ -2193,6 +2442,32 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerPhoto
+      value: 
+      objectReference: {fileID: 21300000, guid: d910f649b2d3ae74380be4b794902bad,
+        type: 3}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJob
+      value: 3000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVice
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtue
+      value: 550
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJobStr
+      value: Influencer
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8286c1355c951c847b14faee8e1ddd04, type: 3}
@@ -2299,6 +2574,12 @@ PrefabInstance:
       propertyPath: HouseTypeStr
       value: Chabola
       objectReference: {fileID: 0}
+    - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
+        type: 3}
+      propertyPath: HouseTypeImg
+      value: 
+      objectReference: {fileID: 21300000, guid: d83f25c8e62ba37479b79b825d4afdef,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a43dc260a7c9b324da0426f9de006195, type: 3}
 --- !u!4 &987977427 stripped
@@ -2404,6 +2685,12 @@ PrefabInstance:
       propertyPath: HouseTypeStr
       value: Apartamento
       objectReference: {fileID: 0}
+    - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
+        type: 3}
+      propertyPath: HouseTypeImg
+      value: 
+      objectReference: {fileID: 21300000, guid: aec5a328fd9cdb549a11636dd47a695a,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a43dc260a7c9b324da0426f9de006195, type: 3}
 --- !u!4 &1163077772 stripped
@@ -2559,6 +2846,12 @@ PrefabInstance:
       propertyPath: HouseTypeStr
       value: "Mansi\xF3n"
       objectReference: {fileID: 0}
+    - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
+        type: 3}
+      propertyPath: HouseTypeImg
+      value: 
+      objectReference: {fileID: 21300000, guid: 6494a08fa9264664890b8803fb582a47,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a43dc260a7c9b324da0426f9de006195, type: 3}
 --- !u!4 &1261790366 stripped
@@ -2633,6 +2926,32 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerPhoto
+      value: 
+      objectReference: {fileID: 21300000, guid: f13c7370b0d738440b1d50a5a4b3dee2,
+        type: 3}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJobStr
+      value: Youtuber fracasado
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJob
+      value: 1500
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtueStr
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtue
+      value: 300
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8286c1355c951c847b14faee8e1ddd04, type: 3}
@@ -2709,6 +3028,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerPhoto
+      value: 
+      objectReference: {fileID: 21300000, guid: d910f649b2d3ae74380be4b794902bad,
+        type: 3}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJob
+      value: 900
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJobStr
+      value: "Ciclista de Jlobo\xAE"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8286c1355c951c847b14faee8e1ddd04, type: 3}
 --- !u!4 &1289912044 stripped
@@ -2783,6 +3118,32 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerPhoto
+      value: 
+      objectReference: {fileID: 21300000, guid: f13c7370b0d738440b1d50a5a4b3dee2,
+        type: 3}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJob
+      value: 3000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtueStr
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtue
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJobStr
+      value: Mamporrero
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8286c1355c951c847b14faee8e1ddd04, type: 3}
@@ -2859,6 +3220,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerPhoto
+      value: 
+      objectReference: {fileID: 21300000, guid: f13c7370b0d738440b1d50a5a4b3dee2,
+        type: 3}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtue
+      value: 1500
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJob
+      value: 8500
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerPetsStr
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJobStr
+      value: "Br\xF3ker"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtueStr
+      value: Feminista
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8286c1355c951c847b14faee8e1ddd04, type: 3}
 --- !u!4 &1346671287 stripped
@@ -2866,81 +3258,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6101281058223322539, guid: 8286c1355c951c847b14faee8e1ddd04,
     type: 3}
   m_PrefabInstance: {fileID: 1346671286}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1471280036
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1894676444}
-    m_Modifications:
-    - target: {fileID: 2392541026930752113, guid: 325e49a95261b91449dfcee092b19e66,
-        type: 3}
-      propertyPath: m_Name
-      value: CustomerManager (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2392541026930752118, guid: 325e49a95261b91449dfcee092b19e66,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 60.095123
-      objectReference: {fileID: 0}
-    - target: {fileID: 2392541026930752118, guid: 325e49a95261b91449dfcee092b19e66,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -251.25232
-      objectReference: {fileID: 0}
-    - target: {fileID: 2392541026930752118, guid: 325e49a95261b91449dfcee092b19e66,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1179.0566
-      objectReference: {fileID: 0}
-    - target: {fileID: 2392541026930752118, guid: 325e49a95261b91449dfcee092b19e66,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2392541026930752118, guid: 325e49a95261b91449dfcee092b19e66,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2392541026930752118, guid: 325e49a95261b91449dfcee092b19e66,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2392541026930752118, guid: 325e49a95261b91449dfcee092b19e66,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2392541026930752118, guid: 325e49a95261b91449dfcee092b19e66,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2392541026930752118, guid: 325e49a95261b91449dfcee092b19e66,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2392541026930752118, guid: 325e49a95261b91449dfcee092b19e66,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2392541026930752118, guid: 325e49a95261b91449dfcee092b19e66,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 325e49a95261b91449dfcee092b19e66, type: 3}
---- !u!4 &1471280037 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2392541026930752118, guid: 325e49a95261b91449dfcee092b19e66,
-    type: 3}
-  m_PrefabInstance: {fileID: 1471280036}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1552397085
 PrefabInstance:
@@ -3039,6 +3356,12 @@ PrefabInstance:
       propertyPath: HouseTypeStr
       value: Apartamento
       objectReference: {fileID: 0}
+    - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
+        type: 3}
+      propertyPath: HouseTypeImg
+      value: 
+      objectReference: {fileID: 21300000, guid: aec5a328fd9cdb549a11636dd47a695a,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a43dc260a7c9b324da0426f9de006195, type: 3}
 --- !u!4 &1552397086 stripped
@@ -3114,6 +3437,32 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerPhoto
+      value: 
+      objectReference: {fileID: 21300000, guid: 0c0d261db66b26d4c9347fda082b8b5d,
+        type: 3}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJob
+      value: 3000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtueStr
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtue
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJobStr
+      value: Publicista
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8286c1355c951c847b14faee8e1ddd04, type: 3}
 --- !u!4 &1552562039 stripped
@@ -3188,6 +3537,37 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerPhoto
+      value: 
+      objectReference: {fileID: 21300000, guid: d910f649b2d3ae74380be4b794902bad,
+        type: 3}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtue
+      value: 1500
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJob
+      value: 8500
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerPetsStr
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJobStr
+      value: Rigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtueStr
+      value: Tiene un ducado
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8286c1355c951c847b14faee8e1ddd04, type: 3}
@@ -3294,6 +3674,12 @@ PrefabInstance:
       propertyPath: HouseTypeStr
       value: Chabola
       objectReference: {fileID: 0}
+    - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
+        type: 3}
+      propertyPath: HouseTypeImg
+      value: 
+      objectReference: {fileID: 21300000, guid: d83f25c8e62ba37479b79b825d4afdef,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a43dc260a7c9b324da0426f9de006195, type: 3}
 --- !u!4 &1620674721 stripped
@@ -3399,6 +3785,12 @@ PrefabInstance:
       propertyPath: HouseTypeStr
       value: Apartamento
       objectReference: {fileID: 0}
+    - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
+        type: 3}
+      propertyPath: HouseTypeImg
+      value: 
+      objectReference: {fileID: 21300000, guid: 7243fbef0e6f1644a9fcee6f2adbf846,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a43dc260a7c9b324da0426f9de006195, type: 3}
 --- !u!4 &1654143261 stripped
@@ -3473,6 +3865,37 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerPhoto
+      value: 
+      objectReference: {fileID: 21300000, guid: 0c0d261db66b26d4c9347fda082b8b5d,
+        type: 3}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJob
+      value: 6000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVice
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtue
+      value: 550
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtueStr
+      value: "Habla franc\xE9s"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJobStr
+      value: "Pol\xEDtico"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8286c1355c951c847b14faee8e1ddd04, type: 3}
@@ -3549,6 +3972,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerPhoto
+      value: 
+      objectReference: {fileID: 21300000, guid: 0c0d261db66b26d4c9347fda082b8b5d,
+        type: 3}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJob
+      value: 3000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVice
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtue
+      value: 550
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtueStr
+      value: Hace panes
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJobStr
+      value: Analista de datos
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8286c1355c951c847b14faee8e1ddd04, type: 3}
 --- !u!4 &1781711899 stripped
@@ -3623,6 +4077,32 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerPhoto
+      value: 
+      objectReference: {fileID: 21300000, guid: f13c7370b0d738440b1d50a5a4b3dee2,
+        type: 3}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJobStr
+      value: Necrotaxidermista
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJob
+      value: 1500
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtueStr
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtue
+      value: 500
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8286c1355c951c847b14faee8e1ddd04, type: 3}
@@ -3811,6 +4291,12 @@ PrefabInstance:
       propertyPath: HouseType
       value: 500
       objectReference: {fileID: 0}
+    - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
+        type: 3}
+      propertyPath: HouseTypeImg
+      value: 
+      objectReference: {fileID: 21300000, guid: 7243fbef0e6f1644a9fcee6f2adbf846,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a43dc260a7c9b324da0426f9de006195, type: 3}
 --- !u!4 &1810569881 stripped
@@ -3886,6 +4372,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerPhoto
+      value: 
+      objectReference: {fileID: 21300000, guid: d910f649b2d3ae74380be4b794902bad,
+        type: 3}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJob
+      value: 6000
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVice
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtue
+      value: 550
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtueStr
+      value: Puntual
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJobStr
+      value: Astronauta
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8286c1355c951c847b14faee8e1ddd04, type: 3}
 --- !u!4 &1854150109 stripped
@@ -3921,11 +4438,10 @@ Transform:
   m_LocalPosition: {x: -50.607224, y: -79.308716, z: -587.4998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 808914621}
   - {fileID: 169038935}
-  - {fileID: 1471280037}
   - {fileID: 366760660}
   - {fileID: 1221696206}
-  - {fileID: 808914621}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4065,6 +4581,32 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerPhoto
+      value: 
+      objectReference: {fileID: 21300000, guid: f13c7370b0d738440b1d50a5a4b3dee2,
+        type: 3}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJobStr
+      value: 'Sexador de pollos '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJob
+      value: 1500
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtueStr
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtue
+      value: 300
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8286c1355c951c847b14faee8e1ddd04, type: 3}
 --- !u!4 &1910886815 stripped
@@ -4140,6 +4682,32 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerPhoto
+      value: 
+      objectReference: {fileID: 21300000, guid: d910f649b2d3ae74380be4b794902bad,
+        type: 3}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJobStr
+      value: Game Dev
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJob
+      value: 1500
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtueStr
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtue
+      value: 500
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8286c1355c951c847b14faee8e1ddd04, type: 3}
 --- !u!4 &1933686522 stripped
@@ -4214,6 +4782,52 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerPhoto
+      value: 
+      objectReference: {fileID: 21300000, guid: f13c7370b0d738440b1d50a5a4b3dee2,
+        type: 3}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJob
+      value: 900
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVirtueStr
+      value: Coleccionista
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerViceStr
+      value: Voxer
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerJobStr
+      value: Comercial
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerPetsStr
+      value: Ninguna
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerVice
+      value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerChildren
+      value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6101281058223322538, guid: 8286c1355c951c847b14faee8e1ddd04,
+        type: 3}
+      propertyPath: CustomerChildrenStr
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8286c1355c951c847b14faee8e1ddd04, type: 3}
