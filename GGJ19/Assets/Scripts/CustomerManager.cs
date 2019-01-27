@@ -17,18 +17,24 @@ public class CustomerManager : MonoBehaviour
 
     public Customer[] gameCustomers = new Customer[20];
 
-    public Text TextTitle;
+    public SpriteRenderer SpritePhoto;
     public Text TextVirtue;
     public Text TextVice;
     public Text TextJob;
     public Text TextChildren;
     public Text TextPets;
 
+    bool appIn = false;
+
+    int max_next;
+
     public void ShowCustomer(int gameCustomerIndex)
     {
-        TextVirtue.text = gameCustomers[gameCustomerIndex].CustomerVirtue.ToString();
-        TextVice.text = gameCustomers[gameCustomerIndex].CustomerVice.ToString();
-        TextJob.text = gameCustomers[gameCustomerIndex].CustomerJob.ToString();
+        TextVirtue.text = gameCustomers[gameCustomerIndex].CustomerVirtueStr;
+        TextVice.text = gameCustomers[gameCustomerIndex].CustomerViceStr;
+        TextJob.text = gameCustomers[gameCustomerIndex].CustomerJobStr;
+        TextChildren.text = gameCustomers[gameCustomerIndex].CustomerChildrenStr;
+        TextPets.text = gameCustomers[gameCustomerIndex].CustomerPetsStr;
     }
 
     public int CalculateCustomerMoney(int gameCustomerIndex)
@@ -36,12 +42,6 @@ public class CustomerManager : MonoBehaviour
         //Para BEA: Esto es solo de ejemplo. Hacerlo con la fórmula que sea
         return gameCustomers[gameCustomerIndex].CustomerChildren + gameCustomers[gameCustomerIndex].CustomerJob;
     }
-
-
-
-    bool appIn = false;
-
-    int max_next;
 
     //Para desactivar a los 10 NEXT
     public Button button_next;

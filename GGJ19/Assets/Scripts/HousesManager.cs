@@ -17,16 +17,21 @@ public class HousesManager : MonoBehaviour
 
     public House[] gameHouses = new House[20];
 
-    public Text TextTitle;
+    public SpriteRenderer SpritePhoto;
     public Text TextZone;
     public Text TextFurniture;
     public Text TextType;
 
+    bool appIn = false;
+
+    int max_next;
+
     public void ShowHouse(int gameHouseIndex)
     {
-        TextZone.text = gameHouses[gameHouseIndex].HouseZone.ToString();
-        TextFurniture.text = gameHouses[gameHouseIndex].HouseFurniture.ToString();
-        TextType.text = gameHouses[gameHouseIndex].HouseType.ToString();
+        SpritePhoto.sprite = gameHouses[gameHouseIndex].HouseTypeImg;
+        TextZone.text = gameHouses[gameHouseIndex].HouseZoneStr;
+        TextFurniture.text = gameHouses[gameHouseIndex].HouseFurnitureStr;
+        TextType.text = gameHouses[gameHouseIndex].HouseTypeStr;
     }
 
     public int CalculateHouseMoney(int gameHouseIndex)
@@ -34,12 +39,6 @@ public class HousesManager : MonoBehaviour
         //Para BEA: Esto es solo de ejemplo. Hacerlo con la fórmula que sea
         return gameHouses[gameHouseIndex].HouseZone + gameHouses[gameHouseIndex].HouseType;
     }
-
-
-
-    bool appIn = false;
- 
-    int max_next;
 
     // Use this for initialization
     void Start () {

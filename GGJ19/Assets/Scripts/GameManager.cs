@@ -52,7 +52,7 @@ public class GameManager : MonoBehaviour
         HouseIndex = 0;
         CustomerIndex = 0;
 
-        //
+        //Acumulaciones de dinero
         AccHousesMoney = 0;
         AccCustomersMoney = 0;
 }
