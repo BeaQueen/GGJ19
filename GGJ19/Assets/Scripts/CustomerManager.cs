@@ -40,8 +40,7 @@ public class CustomerManager : MonoBehaviour
 
     public int CalculateCustomerMoney(int gameCustomerIndex)
     {
-        //Para BEA: Esto es solo de ejemplo. Hacerlo con la fórmula que sea
-        return gameCustomers[gameCustomerIndex].CustomerChildren + gameCustomers[gameCustomerIndex].CustomerJob;
+        return gameCustomers[gameCustomerIndex].CustomerChildren + gameCustomers[gameCustomerIndex].CustomerJob + gameCustomers[gameCustomerIndex].CustomerVirtue + gameCustomers[gameCustomerIndex].CustomerVice + gameCustomers[gameCustomerIndex].CustomerPets;
     }
 
     //Para desactivar a los 10 NEXT

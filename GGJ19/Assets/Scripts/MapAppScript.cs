@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class MapAppScript : MonoBehaviour {
 
+    
+
     public int NumMapButtons = 20;
 
     public GameObject[] mapButtons = new GameObject[20];
-    public GameObject[] PressedButtons = new GameObject[20];
-
 
     bool appIn = true;
 
