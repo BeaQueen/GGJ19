@@ -162,7 +162,7 @@ public class GameManager : MonoBehaviour
         if (AccTotal > 0)
         {
             spriteEnd.sprite = winSprite;
-            totalText.color = Color.green;
+            totalText.color = Color.black;
         }
         else
         {

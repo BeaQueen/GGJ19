@@ -45,9 +45,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomerVirtue: 200
   CustomerVirtueStr: Pinta cuadros
-  CustomerVice: -30
+  CustomerVice: -300
   CustomerViceStr: Swinger
-  CustomerJob: 3000
+  CustomerJob: 4000
   CustomerJobStr: Paparazzi
   CustomerChildren: -85
   CustomerChildrenStr: 2

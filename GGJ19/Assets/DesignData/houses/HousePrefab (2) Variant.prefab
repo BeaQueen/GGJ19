@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 8990847517555122963, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
       propertyPath: m_Name
-      value: HousePrefab (2)
+      value: HousePrefab (2) Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8990847517555122972, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
@@ -30,17 +30,17 @@ PrefabInstance:
     - target: {fileID: 8990847517555122972, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8990847517555122972, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8990847517555122972, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8990847517555122972, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
@@ -69,13 +69,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
+      propertyPath: HouseZone
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
+        type: 3}
       propertyPath: HouseZoneStr
       value: Pan Maldito (Muy mala)
       objectReference: {fileID: 0}
     - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
-      propertyPath: HouseZone
-      value: 200
+      propertyPath: HouseFurniture
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
@@ -84,13 +89,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
-      propertyPath: HouseFurniture
-      value: 1000
-      objectReference: {fileID: 0}
-    - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
-        type: 3}
       propertyPath: HouseType
-      value: 3000
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
@@ -101,7 +101,7 @@ PrefabInstance:
         type: 3}
       propertyPath: HouseTypeImg
       value: 
-      objectReference: {fileID: 21300000, guid: 6494a08fa9264664890b8803fb582a47,
+      objectReference: {fileID: 21300000, guid: e33fb65044ddeda4693b782e1d786602,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a43dc260a7c9b324da0426f9de006195, type: 3}

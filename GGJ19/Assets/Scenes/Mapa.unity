@@ -197,22 +197,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8476794603313061097, guid: 12c06fe62d9aa144aa6b4e15f7dd0379,
-        type: 3}
-      propertyPath: CustomerPhoto
-      value: 
-      objectReference: {fileID: 21300000, guid: 549feb24c1a636047a4612d2c6bf2e3d,
-        type: 3}
-    - target: {fileID: 8476794603313061097, guid: 12c06fe62d9aa144aa6b4e15f7dd0379,
-        type: 3}
-      propertyPath: CustomerVirtueStr
-      value: Le gustan los documentales
-      objectReference: {fileID: 0}
-    - target: {fileID: 8476794603313061097, guid: 12c06fe62d9aa144aa6b4e15f7dd0379,
-        type: 3}
-      propertyPath: CustomerVirtue
-      value: 400
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12c06fe62d9aa144aa6b4e15f7dd0379, type: 3}
 --- !u!4 &13575305 stripped
@@ -690,12 +674,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8546333747959529140, guid: ab9e0701400e62c4b93ee42539dbe4d9,
-        type: 3}
-      propertyPath: HouseTypeImg
-      value: 
-      objectReference: {fileID: 21300000, guid: 2bbf2431c5731de4abcafb8d48cf22ec,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab9e0701400e62c4b93ee42539dbe4d9, type: 3}
 --- !u!1 &93572263
@@ -1231,12 +1209,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7447983009606263868, guid: 2101a09ed5f1d8c4891bd7fc81adf0f3,
-        type: 3}
-      propertyPath: HouseTypeImg
-      value: 
-      objectReference: {fileID: 21300000, guid: 7056a2ac031656f4f983e300891e02b7,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2101a09ed5f1d8c4891bd7fc81adf0f3, type: 3}
 --- !u!1 &101333565
@@ -1375,12 +1347,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3380866964519747181, guid: 38593de591897f247a2a07a9fffd30b7,
-        type: 3}
-      propertyPath: HouseTypeImg
-      value: 
-      objectReference: {fileID: 21300000, guid: e33fb65044ddeda4693b782e1d786602,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38593de591897f247a2a07a9fffd30b7, type: 3}
 --- !u!1 &109301128
@@ -2121,44 +2087,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3649088587176127262, guid: 0e2368a025659f34db1c6ef878895e2e,
         type: 3}
-      propertyPath: CustomerPhoto
-      value: 
-      objectReference: {fileID: 21300000, guid: fb39527e3b7189f42a052710f8a83e0f,
-        type: 3}
-    - target: {fileID: 3649088587176127262, guid: 0e2368a025659f34db1c6ef878895e2e,
-        type: 3}
-      propertyPath: CustomerVirtueStr
-      value: Game Jammer
-      objectReference: {fileID: 0}
-    - target: {fileID: 3649088587176127262, guid: 0e2368a025659f34db1c6ef878895e2e,
-        type: 3}
-      propertyPath: CustomerVirtue
-      value: 500
-      objectReference: {fileID: 0}
-    - target: {fileID: 3649088587176127262, guid: 0e2368a025659f34db1c6ef878895e2e,
-        type: 3}
-      propertyPath: CustomerViceStr
-      value: Ropa de marca
-      objectReference: {fileID: 0}
-    - target: {fileID: 3649088587176127262, guid: 0e2368a025659f34db1c6ef878895e2e,
-        type: 3}
-      propertyPath: CustomerVice
-      value: -80
-      objectReference: {fileID: 0}
-    - target: {fileID: 3649088587176127262, guid: 0e2368a025659f34db1c6ef878895e2e,
-        type: 3}
-      propertyPath: CustomerPets
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3649088587176127262, guid: 0e2368a025659f34db1c6ef878895e2e,
-        type: 3}
-      propertyPath: CustomerPetsStr
-      value: Ninguno
+      propertyPath: CustomerChildren
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 3649088587176127262, guid: 0e2368a025659f34db1c6ef878895e2e,
         type: 3}
       propertyPath: CustomerChildrenStr
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e2368a025659f34db1c6ef878895e2e, type: 3}
@@ -2564,12 +2499,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2950854454168930581, guid: a6351ea25b202e046affbce5ff968e8b,
-        type: 3}
-      propertyPath: HouseTypeImg
-      value: 
-      objectReference: {fileID: 21300000, guid: 7056a2ac031656f4f983e300891e02b7,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6351ea25b202e046affbce5ff968e8b, type: 3}
 --- !u!1 &241724937
@@ -3310,12 +3239,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6306827391136111145, guid: 8f846c53fdbf4294e9906dbbd1397c10,
-        type: 3}
-      propertyPath: HouseTypeImg
-      value: 
-      objectReference: {fileID: 21300000, guid: e33fb65044ddeda4693b782e1d786602,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f846c53fdbf4294e9906dbbd1397c10, type: 3}
 --- !u!1 &394571062
@@ -4342,12 +4265,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3561742394848279999, guid: 8a9d7b3fa72ae8442a090ad246e6cdd4,
-        type: 3}
-      propertyPath: HouseTypeImg
-      value: 
-      objectReference: {fileID: 21300000, guid: 7056a2ac031656f4f983e300891e02b7,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a9d7b3fa72ae8442a090ad246e6cdd4, type: 3}
 --- !u!4 &563356959 stripped
@@ -4435,12 +4352,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1447357714952192737, guid: b6252de58bf989b49914e0cce29359e7,
-        type: 3}
-      propertyPath: HouseTypeImg
-      value: 
-      objectReference: {fileID: 21300000, guid: e33fb65044ddeda4693b782e1d786602,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6252de58bf989b49914e0cce29359e7, type: 3}
 --- !u!1 &570330022
@@ -6885,12 +6796,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1370750801513658889, guid: 908a940e09d4348429e0a0d4991a34bc,
-        type: 3}
-      propertyPath: HouseTypeImg
-      value: 
-      objectReference: {fileID: 21300000, guid: 48cac7af46483134bb2f9e45ee4ebc46,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 908a940e09d4348429e0a0d4991a34bc, type: 3}
 --- !u!1 &1119663493
@@ -7107,12 +7012,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7100266845654849981, guid: b9821fc3b23b51548a6291bb227990bc,
-        type: 3}
-      propertyPath: HouseTypeImg
-      value: 
-      objectReference: {fileID: 21300000, guid: 66efe5ac1a486964aaf16e65aeedb475,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9821fc3b23b51548a6291bb227990bc, type: 3}
 --- !u!4 &1345587845 stripped
@@ -7681,12 +7580,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6998850953079692556, guid: 994aca6c886f877478c6b7b152f88303,
-        type: 3}
-      propertyPath: HouseTypeImg
-      value: 
-      objectReference: {fileID: 21300000, guid: e33fb65044ddeda4693b782e1d786602,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 994aca6c886f877478c6b7b152f88303, type: 3}
 --- !u!1 &1469514090
@@ -8291,12 +8184,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8382188056033910156, guid: eac16fccaf9ba334a9b033920ccfa9f2,
-        type: 3}
-      propertyPath: HouseTypeImg
-      value: 
-      objectReference: {fileID: 21300000, guid: 48cac7af46483134bb2f9e45ee4ebc46,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eac16fccaf9ba334a9b033920ccfa9f2, type: 3}
 --- !u!1 &1518762881
@@ -8557,12 +8444,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6254583688126960863, guid: 79ea94fd32510ed4694c01423d574b3f,
-        type: 3}
-      propertyPath: HouseTypeImg
-      value: 
-      objectReference: {fileID: 21300000, guid: 66efe5ac1a486964aaf16e65aeedb475,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79ea94fd32510ed4694c01423d574b3f, type: 3}
 --- !u!1001 &1548700670
@@ -8719,12 +8600,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5841108477384363595, guid: 2ba0ada47a4b12742a593f9e7b492705,
-        type: 3}
-      propertyPath: HouseTypeImg
-      value: 
-      objectReference: {fileID: 21300000, guid: e33fb65044ddeda4693b782e1d786602,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ba0ada47a4b12742a593f9e7b492705, type: 3}
 --- !u!4 &1594564427 stripped
@@ -8812,12 +8687,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4449961565409752507, guid: eca115ae494803241973e8f7d189d57b,
-        type: 3}
-      propertyPath: HouseTypeImg
-      value: 
-      objectReference: {fileID: 21300000, guid: 7056a2ac031656f4f983e300891e02b7,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eca115ae494803241973e8f7d189d57b, type: 3}
 --- !u!1 &1619310080
@@ -8962,12 +8831,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 755736370835986194, guid: 26e9740acd69d4547881ef48eb0ab74a,
-        type: 3}
-      propertyPath: HouseTypeImg
-      value: 
-      objectReference: {fileID: 21300000, guid: 48cac7af46483134bb2f9e45ee4ebc46,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 26e9740acd69d4547881ef48eb0ab74a, type: 3}
 --- !u!1 &1651561385
@@ -9087,12 +8950,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1514951041591677356, guid: 8ea564237ee4d1240b99cee45471d2e4,
-        type: 3}
-      propertyPath: HouseTypeImg
-      value: 
-      objectReference: {fileID: 21300000, guid: 66efe5ac1a486964aaf16e65aeedb475,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ea564237ee4d1240b99cee45471d2e4, type: 3}
 --- !u!1 &1653621894
@@ -9209,12 +9066,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2998971202543051977, guid: 393167c8cb0d92f45a3c53d90b198f2e,
-        type: 3}
-      propertyPath: HouseTypeImg
-      value: 
-      objectReference: {fileID: 21300000, guid: 48cac7af46483134bb2f9e45ee4ebc46,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 393167c8cb0d92f45a3c53d90b198f2e, type: 3}
 --- !u!1001 &1666183708
@@ -9286,54 +9137,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8476794603313061097, guid: 12c06fe62d9aa144aa6b4e15f7dd0379,
         type: 3}
-      propertyPath: CustomerPhoto
-      value: 
-      objectReference: {fileID: 21300000, guid: 238a61a4faa229d4a9513fca073da7a8,
-        type: 3}
-    - target: {fileID: 8476794603313061097, guid: 12c06fe62d9aa144aa6b4e15f7dd0379,
-        type: 3}
-      propertyPath: CustomerVirtueStr
-      value: "Bebe t\xE9"
-      objectReference: {fileID: 0}
-    - target: {fileID: 8476794603313061097, guid: 12c06fe62d9aa144aa6b4e15f7dd0379,
-        type: 3}
-      propertyPath: CustomerVirtue
-      value: 244
-      objectReference: {fileID: 0}
-    - target: {fileID: 8476794603313061097, guid: 12c06fe62d9aa144aa6b4e15f7dd0379,
-        type: 3}
       propertyPath: CustomerPetsStr
-      value: Ninguna
+      value: "Zool\xF3gico"
       objectReference: {fileID: 0}
     - target: {fileID: 8476794603313061097, guid: 12c06fe62d9aa144aa6b4e15f7dd0379,
         type: 3}
       propertyPath: CustomerPets
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8476794603313061097, guid: 12c06fe62d9aa144aa6b4e15f7dd0379,
-        type: 3}
-      propertyPath: CustomerChildrenStr
-      value: "Don\xF3 esperma"
-      objectReference: {fileID: 0}
-    - target: {fileID: 8476794603313061097, guid: 12c06fe62d9aa144aa6b4e15f7dd0379,
-        type: 3}
-      propertyPath: CustomerChildren
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8476794603313061097, guid: 12c06fe62d9aa144aa6b4e15f7dd0379,
-        type: 3}
-      propertyPath: CustomerJobStr
-      value: Monarca
-      objectReference: {fileID: 0}
-    - target: {fileID: 8476794603313061097, guid: 12c06fe62d9aa144aa6b4e15f7dd0379,
-        type: 3}
-      propertyPath: CustomerViceStr
-      value: Fuma
-      objectReference: {fileID: 0}
-    - target: {fileID: 8476794603313061097, guid: 12c06fe62d9aa144aa6b4e15f7dd0379,
-        type: 3}
-      propertyPath: CustomerVice
-      value: -85
+      value: -8000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12c06fe62d9aa144aa6b4e15f7dd0379, type: 3}
@@ -11727,12 +11537,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2010855937426304234, guid: 9cc7929463b389440a594d741c66f385,
-        type: 3}
-      propertyPath: HouseTypeImg
-      value: 
-      objectReference: {fileID: 21300000, guid: 48cac7af46483134bb2f9e45ee4ebc46,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cc7929463b389440a594d741c66f385, type: 3}
 --- !u!1 &1973212445
@@ -12456,12 +12260,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8822100393833014576, guid: 4c950594f53203e4d899b40fd2b6656a,
-        type: 3}
-      propertyPath: HouseTypeImg
-      value: 
-      objectReference: {fileID: 21300000, guid: 66efe5ac1a486964aaf16e65aeedb475,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c950594f53203e4d899b40fd2b6656a, type: 3}
 --- !u!1 &2059048276
@@ -13158,17 +12956,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1727237458478755956, guid: 412c46eb761ef684eaccba612f509fb1,
-        type: 3}
-      propertyPath: HouseTypeImg
-      value: 
-      objectReference: {fileID: 21300000, guid: 66efe5ac1a486964aaf16e65aeedb475,
-        type: 3}
-    - target: {fileID: 1727237458478755956, guid: 412c46eb761ef684eaccba612f509fb1,
-        type: 3}
-      propertyPath: HouseTypeStr
-      value: "Casa de cart\xF3n"
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 412c46eb761ef684eaccba612f509fb1, type: 3}
 --- !u!1 &2145450257
@@ -13453,12 +13240,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 227704644891516705, guid: 9fd75240cdbe998418fb801e00d37083,
-        type: 3}
-      propertyPath: CustomerPhoto
-      value: 
-      objectReference: {fileID: 21300000, guid: fdf5488afd6e08146ac0707a0301ca16,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fd75240cdbe998418fb801e00d37083, type: 3}
 --- !u!1001 &271540447799752392
@@ -13528,12 +13309,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 271540446845691899, guid: ba2a3ab9f09cfa047a352c9b85470487,
-        type: 3}
-      propertyPath: CustomerPhoto
-      value: 
-      objectReference: {fileID: 21300000, guid: 7ef505aaa546aeb4a9a790def52defd6,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba2a3ab9f09cfa047a352c9b85470487, type: 3}
 --- !u!1001 &660995996825151898
@@ -13603,12 +13378,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 660995996295351482, guid: 07a12612f09f4d944ae4eca5c491cb2c,
-        type: 3}
-      propertyPath: CustomerPhoto
-      value: 
-      objectReference: {fileID: 21300000, guid: 6c1e1afd7e0ba914b81abfbddc36b9de,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07a12612f09f4d944ae4eca5c491cb2c, type: 3}
 --- !u!1001 &1096050892950700106
@@ -13678,12 +13447,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1096050892164465482, guid: aaf947ace641b4647bedafab31a751e1,
-        type: 3}
-      propertyPath: CustomerPhoto
-      value: 
-      objectReference: {fileID: 21300000, guid: 9622899ba1a972e448a59e86c81858e1,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aaf947ace641b4647bedafab31a751e1, type: 3}
 --- !u!1001 &1658826428279706701
@@ -13753,12 +13516,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1658826429402612471, guid: 45a2fee733ddeb94580d5bdef5433383,
-        type: 3}
-      propertyPath: CustomerPhoto
-      value: 
-      objectReference: {fileID: 21300000, guid: 66b248c2674bd6e4b9a2453715b030de,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45a2fee733ddeb94580d5bdef5433383, type: 3}
 --- !u!1001 &2550986897176339031
@@ -13827,17 +13584,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2550986896318351506, guid: afc35a28cd3af00428bddb9e57be16b7,
-        type: 3}
-      propertyPath: CustomerPhoto
-      value: 
-      objectReference: {fileID: 21300000, guid: 5f115e92df2dc8d49955da98f15cda7b,
-        type: 3}
-    - target: {fileID: 2550986896318351506, guid: afc35a28cd3af00428bddb9e57be16b7,
-        type: 3}
-      propertyPath: CustomerChildren
-      value: -45
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: afc35a28cd3af00428bddb9e57be16b7, type: 3}
@@ -13908,12 +13654,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3174997026626998021, guid: a0ca4ba679339184a8e3ff2a7a95a341,
-        type: 3}
-      propertyPath: CustomerPhoto
-      value: 
-      objectReference: {fileID: 21300000, guid: 4d4316aaee2a81b4ea683913f6f0d248,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0ca4ba679339184a8e3ff2a7a95a341, type: 3}
 --- !u!1001 &3416903891918962146
@@ -13982,17 +13722,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3416903890921680319, guid: 9040fef6ae53eda4489ce6879e199e55,
-        type: 3}
-      propertyPath: CustomerPhoto
-      value: 
-      objectReference: {fileID: 21300000, guid: 80d3cd2b2c7b539458d7762f8f9802c8,
-        type: 3}
-    - target: {fileID: 3416903890921680319, guid: 9040fef6ae53eda4489ce6879e199e55,
-        type: 3}
-      propertyPath: CustomerChildren
-      value: -75
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9040fef6ae53eda4489ce6879e199e55, type: 3}
@@ -14063,12 +13792,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3455380128926858202, guid: 9d5723e2507d651468d4d7c767e8201e,
-        type: 3}
-      propertyPath: CustomerPhoto
-      value: 
-      objectReference: {fileID: 21300000, guid: 8415b57a1817c024980bd845501c7957,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d5723e2507d651468d4d7c767e8201e, type: 3}
 --- !u!1001 &3490355475836959876
@@ -14138,12 +13861,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3490355477184531424, guid: 3e65522be0788564ca9ddea23b64d734,
-        type: 3}
-      propertyPath: CustomerPhoto
-      value: 
-      objectReference: {fileID: 21300000, guid: 3da53027c68ac994c9656e4f853916fe,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e65522be0788564ca9ddea23b64d734, type: 3}
 --- !u!1001 &3579976781790938668
@@ -14282,12 +13999,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3649088587176127262, guid: 0e2368a025659f34db1c6ef878895e2e,
-        type: 3}
-      propertyPath: CustomerPhoto
-      value: 
-      objectReference: {fileID: 21300000, guid: a4a02cf173e22ac4a89a17a52e317f3b,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e2368a025659f34db1c6ef878895e2e, type: 3}
 --- !u!4 &4477911114727593762 stripped
@@ -14363,12 +14074,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4543376101529615895, guid: da12c9e670b860b40a6cbfa5decc15db,
-        type: 3}
-      propertyPath: CustomerPhoto
-      value: 
-      objectReference: {fileID: 21300000, guid: 4b6c4e487a233fd478b932c1aacfc77c,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da12c9e670b860b40a6cbfa5decc15db, type: 3}
 --- !u!1001 &5641731760071704483
@@ -14507,17 +14212,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6982831785853852243, guid: 63c9cccbd1f666940a567ec3291ce1bf,
-        type: 3}
-      propertyPath: CustomerPhoto
-      value: 
-      objectReference: {fileID: 21300000, guid: 5e59b5555feaa5542bb2def3654563aa,
-        type: 3}
-    - target: {fileID: 6982831785853852243, guid: 63c9cccbd1f666940a567ec3291ce1bf,
-        type: 3}
-      propertyPath: CustomerChildren
-      value: -35
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63c9cccbd1f666940a567ec3291ce1bf, type: 3}
 --- !u!1001 &7028794181466478507
@@ -14587,12 +14281,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7028794180879993063, guid: 8b6d007c764bb354db9816d09009dac9,
-        type: 3}
-      propertyPath: CustomerPhoto
-      value: 
-      objectReference: {fileID: 21300000, guid: 62d8ce200ac9d8341bd3049bfc6db49d,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b6d007c764bb354db9816d09009dac9, type: 3}
 --- !u!1001 &7030159470987768173
@@ -14661,17 +14349,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7030159471261689569, guid: 1437443f37bef084aacefa4f479ad091,
-        type: 3}
-      propertyPath: CustomerPhoto
-      value: 
-      objectReference: {fileID: 21300000, guid: ac7ed1577d7b2c94a9ea6e1b6f944dd2,
-        type: 3}
-    - target: {fileID: 7030159471261689569, guid: 1437443f37bef084aacefa4f479ad091,
-        type: 3}
-      propertyPath: CustomerJobStr
-      value: Artista circense
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1437443f37bef084aacefa4f479ad091, type: 3}
@@ -14742,17 +14419,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8347157855709826200, guid: da2452bb0d26056439a72139884173a2,
-        type: 3}
-      propertyPath: CustomerJobStr
-      value: Youtuber mierder
-      objectReference: {fileID: 0}
-    - target: {fileID: 8347157855709826200, guid: da2452bb0d26056439a72139884173a2,
-        type: 3}
-      propertyPath: CustomerPhoto
-      value: 
-      objectReference: {fileID: 21300000, guid: 695522f3c9048cb4690bb12a5cebcc1b,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da2452bb0d26056439a72139884173a2, type: 3}
 --- !u!4 &8423263679153281416 stripped
@@ -14828,12 +14494,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8476794603313061097, guid: 12c06fe62d9aa144aa6b4e15f7dd0379,
-        type: 3}
-      propertyPath: CustomerPhoto
-      value: 
-      objectReference: {fileID: 21300000, guid: b19b3a0d83cf1a24196c5e1607c03c5a,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 12c06fe62d9aa144aa6b4e15f7dd0379, type: 3}
 --- !u!1001 &8525417882351914436
@@ -14903,11 +14563,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8525417880503884087, guid: dc4728492cc2f8346b22ce091d7199e6,
-        type: 3}
-      propertyPath: CustomerPhoto
-      value: 
-      objectReference: {fileID: 21300000, guid: 53920e81db3f2f642a7b20fc64a4d1ac,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4728492cc2f8346b22ce091d7199e6, type: 3}

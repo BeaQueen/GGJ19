@@ -3,8 +3,7 @@
 --- !u!1 &1658826429402612469
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 8208236188751544938, guid: 7b7377d428d4f3a4782b306cc98c9346,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
@@ -21,12 +20,11 @@ GameObject:
 --- !u!4 &1658826429402612468
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 8208236188751544937, guid: 7b7377d428d4f3a4782b306cc98c9346,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1658826429402612469}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -36,8 +34,7 @@ Transform:
 --- !u!114 &1658826429402612471
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 8208236188751544936, guid: 7b7377d428d4f3a4782b306cc98c9346,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1658826429402612469}
@@ -56,4 +53,4 @@ MonoBehaviour:
   CustomerChildrenStr: Ninguno
   CustomerPets: -20
   CustomerPetsStr: Hamster
-  CustomerPhoto: {fileID: 21300000, guid: 04ebf7a388b151d4a886e96d7672c692, type: 3}
+  CustomerPhoto: {fileID: 21300000, guid: 66b248c2674bd6e4b9a2453715b030de, type: 3}

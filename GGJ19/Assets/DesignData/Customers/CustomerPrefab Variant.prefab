@@ -47,7 +47,7 @@ MonoBehaviour:
   CustomerVirtueStr: Coleccionista
   CustomerVice: -80
   CustomerViceStr: Furry
-  CustomerJob: 900
+  CustomerJob: 1000
   CustomerJobStr: Becaria
   CustomerChildren: -100
   CustomerChildrenStr: 5

@@ -3,8 +3,7 @@
 --- !u!1 &660995996295351428
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7834968035490445755, guid: cccf0b4219e538a4a97902d5921aec6d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
@@ -21,12 +20,11 @@ GameObject:
 --- !u!4 &660995996295351429
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7834968035490445752, guid: cccf0b4219e538a4a97902d5921aec6d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 660995996295351428}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -36,8 +34,7 @@ Transform:
 --- !u!114 &660995996295351482
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7834968035490445753, guid: cccf0b4219e538a4a97902d5921aec6d,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 660995996295351428}
@@ -56,4 +53,4 @@ MonoBehaviour:
   CustomerChildrenStr: 1
   CustomerPets: -85
   CustomerPetsStr: "Hur\xF3n"
-  CustomerPhoto: {fileID: 21300000, guid: 04ebf7a388b151d4a886e96d7672c692, type: 3}
+  CustomerPhoto: {fileID: 21300000, guid: 6c1e1afd7e0ba914b81abfbddc36b9de, type: 3}

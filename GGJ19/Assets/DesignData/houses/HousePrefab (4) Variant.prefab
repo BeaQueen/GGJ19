@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 8990847517555122963, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
       propertyPath: m_Name
-      value: HousePrefab (4)
+      value: HousePrefab (4) Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8990847517555122972, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
@@ -30,17 +30,17 @@ PrefabInstance:
     - target: {fileID: 8990847517555122972, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8990847517555122972, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8990847517555122972, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8990847517555122972, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
@@ -69,13 +69,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
+      propertyPath: HouseZone
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
+        type: 3}
       propertyPath: HouseZoneStr
       value: San Cucufate (Mala)
       objectReference: {fileID: 0}
     - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
-      propertyPath: HouseZone
-      value: 500
+      propertyPath: HouseFurniture
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
@@ -84,7 +89,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
-      propertyPath: HouseFurniture
+      propertyPath: HouseType
       value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
@@ -94,14 +99,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
-      propertyPath: HouseType
-      value: 500
-      objectReference: {fileID: 0}
-    - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
-        type: 3}
       propertyPath: HouseTypeImg
       value: 
-      objectReference: {fileID: 21300000, guid: 7243fbef0e6f1644a9fcee6f2adbf846,
+      objectReference: {fileID: 21300000, guid: 7056a2ac031656f4f983e300891e02b7,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a43dc260a7c9b324da0426f9de006195, type: 3}
