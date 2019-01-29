@@ -47,9 +47,9 @@ MonoBehaviour:
   CustomerVirtueStr: Papiroflexia
   CustomerVice: -10
   CustomerViceStr: Canta de madrugada
-  CustomerJob: 1500
+  CustomerJob: 1200
   CustomerJobStr: Senior Game Dev
-  CustomerChildren: -65
+  CustomerChildren: -300
   CustomerChildrenStr: 1
   CustomerPets: -85
   CustomerPetsStr: "Hur\xF3n"

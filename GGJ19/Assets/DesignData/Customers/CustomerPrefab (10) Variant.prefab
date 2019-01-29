@@ -47,10 +47,10 @@ MonoBehaviour:
   CustomerVirtueStr: Pinta cuadros
   CustomerVice: -300
   CustomerViceStr: Swinger
-  CustomerJob: 4000
+  CustomerJob: 3000
   CustomerJobStr: Paparazzi
-  CustomerChildren: -85
+  CustomerChildren: -850
   CustomerChildrenStr: 2
-  CustomerPets: -60
+  CustomerPets: -600
   CustomerPetsStr: Chinchilla
   CustomerPhoto: {fileID: 21300000, guid: 0258dc05a3ad6624a82682c56ba349c2, type: 3}

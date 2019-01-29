@@ -45,12 +45,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomerVirtue: 450
   CustomerVirtueStr: Hace panes
-  CustomerVice: -80
+  CustomerVice: -200
   CustomerViceStr: Comer del McDollars
   CustomerJob: 3000
   CustomerJobStr: Analista de datos
-  CustomerChildren: -45
+  CustomerChildren: -200
   CustomerChildrenStr: 2
-  CustomerPets: -30
+  CustomerPets: -100
   CustomerPetsStr: Salamandra
   CustomerPhoto: {fileID: 21300000, guid: 5f115e92df2dc8d49955da98f15cda7b, type: 3}

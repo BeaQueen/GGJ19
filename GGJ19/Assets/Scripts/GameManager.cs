@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
     //Indices
     private int m_houseIndex;
     private int m_customerIndex;
-    private bool[] m_customerSeen = new bool[20];
+    private bool[] m_customerSeen = new bool[21];
 
     //Dinero
     private int m_accHousesMoney;
@@ -91,14 +91,14 @@ public class GameManager : MonoBehaviour
     public void StartGame(int gameHouseIndex)
     {
         HouseIndex = gameHouseIndex;
-        CustomerIndex = Random.Range(0, 19);
+        CustomerIndex = Random.Range(0, 21);
 
         HousesManager.Instance.ShowHouse(gameHouseIndex);
         CustomerManager.Instance.ShowCustomer(CustomerIndex);
 
         MapApp.GetComponent<MapAppScript>().mapButtons[gameHouseIndex].SetActive(false);
 
-        for (int i = 0; i < 20; ++i)
+        for (int i = 0; i < 21; ++i)
             m_customerSeen[i] = false;
 
         //Mostrar y activar botón siguiente de customers
@@ -113,9 +113,9 @@ public class GameManager : MonoBehaviour
         if (max_Next < 9)
         {
             //Random customer
-            CustomerIndex = Random.Range(0, 19);
+            CustomerIndex = Random.Range(0, 21);
             while (m_customerSeen[CustomerIndex])
-                CustomerIndex = Random.Range(0, 19);
+                CustomerIndex = Random.Range(0, 21);
 
             m_customerSeen[CustomerIndex] = true;
             CustomerManager.Instance.ShowCustomer(CustomerIndex);

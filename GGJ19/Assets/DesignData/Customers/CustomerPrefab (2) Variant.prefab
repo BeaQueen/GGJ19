@@ -43,13 +43,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b03cc715e0f83c4a933a67d881429e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CustomerVirtue: 500
+  CustomerVirtue: 300
   CustomerVirtueStr: Game Jammer
-  CustomerVice: -80
+  CustomerVice: -100
   CustomerViceStr: Ropa de marca
   CustomerJob: 900
   CustomerJobStr: "Ciclista de Jlobo\xAE"
-  CustomerChildren: -20
+  CustomerChildren: -300
   CustomerChildrenStr: 1
   CustomerPets: 0
   CustomerPetsStr: Ninguno

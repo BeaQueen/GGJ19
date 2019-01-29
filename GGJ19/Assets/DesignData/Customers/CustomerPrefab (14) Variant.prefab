@@ -49,7 +49,7 @@ MonoBehaviour:
   CustomerViceStr: Golosinas
   CustomerJob: 3000
   CustomerJobStr: Influencer
-  CustomerChildren: -75
+  CustomerChildren: -1500
   CustomerChildrenStr: 4
   CustomerPets: 0
   CustomerPetsStr: Hormiguero

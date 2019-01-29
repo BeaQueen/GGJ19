@@ -47,8 +47,8 @@ MonoBehaviour:
   CustomerVirtueStr: Inteligente
   CustomerVice: -25
   CustomerViceStr: Huele a sobaquillo
-  CustomerJob: 1000
-  CustomerJobStr: Becario
+  CustomerJob: 400
+  CustomerJobStr: Freelance
   CustomerChildren: 0
   CustomerChildrenStr: "Don\xF3 semen"
   CustomerPets: 0

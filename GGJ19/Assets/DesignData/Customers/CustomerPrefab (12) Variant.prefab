@@ -45,11 +45,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomerVirtue: 500
   CustomerVirtueStr: Tiene un ducado
-  CustomerVice: -800
+  CustomerVice: -1000
   CustomerViceStr: Ropa de marca
   CustomerJob: 3000
-  CustomerJobStr: Publicista
-  CustomerChildren: -65
+  CustomerJobStr: Controlador de Aeropuertos
+  CustomerChildren: -750
   CustomerChildrenStr: 3
   CustomerPets: 0
   CustomerPetsStr: Ninguna

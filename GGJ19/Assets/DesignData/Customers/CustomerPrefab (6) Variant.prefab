@@ -49,7 +49,7 @@ MonoBehaviour:
   CustomerViceStr: "Desentierra cad\xE1veres"
   CustomerJob: 1500
   CustomerJobStr: Artista circense
-  CustomerChildren: -90
+  CustomerChildren: -700
   CustomerChildrenStr: 7
   CustomerPets: 0
   CustomerPetsStr: Circo de pulgas

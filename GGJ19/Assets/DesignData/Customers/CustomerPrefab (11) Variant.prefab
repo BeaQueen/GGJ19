@@ -47,7 +47,7 @@ MonoBehaviour:
   CustomerVirtueStr: Vende de segunda mano
   CustomerVice: -25
   CustomerViceStr: Bebe agua mineral
-  CustomerJob: 3000
+  CustomerJob: 1000
   CustomerJobStr: Publicista
   CustomerChildren: 0
   CustomerChildrenStr: Ninguno

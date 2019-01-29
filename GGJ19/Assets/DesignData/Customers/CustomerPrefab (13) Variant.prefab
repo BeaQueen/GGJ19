@@ -49,8 +49,8 @@ MonoBehaviour:
   CustomerViceStr: Zapas de marca
   CustomerJob: 3000
   CustomerJobStr: Influencer
-  CustomerChildren: -45
+  CustomerChildren: -450
   CustomerChildrenStr: 3
-  CustomerPets: -70
+  CustomerPets: -100
   CustomerPetsStr: Gato
   CustomerPhoto: {fileID: 21300000, guid: 62d8ce200ac9d8341bd3049bfc6db49d, type: 3}

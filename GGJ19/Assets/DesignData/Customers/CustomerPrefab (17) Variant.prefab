@@ -45,12 +45,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomerVirtue: 200
   CustomerVirtueStr: "Habla franc\xE9s"
-  CustomerVice: -90
+  CustomerVice: -3000
   CustomerViceStr: "Polvos m\xE1gicos"
   CustomerJob: 6155
   CustomerJobStr: "Pol\xEDtico"
-  CustomerChildren: -35
+  CustomerChildren: -400
   CustomerChildrenStr: 2
-  CustomerPets: -90
+  CustomerPets: -900
   CustomerPetsStr: Perro
   CustomerPhoto: {fileID: 21300000, guid: 5e59b5555feaa5542bb2def3654563aa, type: 3}

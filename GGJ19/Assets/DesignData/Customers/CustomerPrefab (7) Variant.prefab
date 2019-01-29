@@ -47,8 +47,8 @@ MonoBehaviour:
   CustomerVirtueStr: "Programa dom\xF3tica"
   CustomerVice: -56
   CustomerViceStr: Hace rafting
-  CustomerJob: 1500
-  CustomerJobStr: Youtuber fracasado
+  CustomerJob: 500
+  CustomerJobStr: Streamer fracasado
   CustomerChildren: -85
   CustomerChildrenStr: 2
   CustomerPets: 0

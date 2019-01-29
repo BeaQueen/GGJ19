@@ -15,7 +15,7 @@ public class CustomerManager : MonoBehaviour
     }
     #endregion
 
-    public Customer[] gameCustomers = new Customer[20];
+    public Customer[] gameCustomers = new Customer[22];
 
     public SpriteRenderer SpritePhoto;
     public Text TextVirtue;

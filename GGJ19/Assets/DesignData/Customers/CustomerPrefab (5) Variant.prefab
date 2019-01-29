@@ -45,9 +45,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomerVirtue: 300
   CustomerVirtueStr: Habla simlish
-  CustomerVice: -300
+  CustomerVice: -400
   CustomerViceStr: Spinners de oro
-  CustomerJob: 1500
+  CustomerJob: 800
   CustomerJobStr: Youtuber mierder
   CustomerChildren: -85
   CustomerChildrenStr: 4

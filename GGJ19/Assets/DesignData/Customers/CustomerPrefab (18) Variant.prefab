@@ -49,7 +49,7 @@ MonoBehaviour:
   CustomerViceStr: Ecologista
   CustomerJob: 8500
   CustomerJobStr: "Br\xF3ker"
-  CustomerChildren: -100
+  CustomerChildren: -1000
   CustomerChildrenStr: 6
   CustomerPets: -85
   CustomerPetsStr: Serpiente
