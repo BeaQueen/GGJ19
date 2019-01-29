@@ -51,6 +51,6 @@ MonoBehaviour:
   CustomerJobStr: "Ciclista de Jlobo\xAE"
   CustomerChildren: -32
   CustomerChildrenStr: 2
-  CustomerPets: -75
-  CustomerPetsStr: "Chimpanc\xE9"
+  CustomerPets: 0
+  CustomerPetsStr: Ninguna
   CustomerPhoto: {fileID: 21300000, guid: fdf5488afd6e08146ac0707a0301ca16, type: 3}

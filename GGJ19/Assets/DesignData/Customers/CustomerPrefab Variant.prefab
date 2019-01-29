@@ -45,7 +45,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomerVirtue: 0
   CustomerVirtueStr: Coleccionista
-  CustomerVice: -80
+  CustomerVice: 0
   CustomerViceStr: Furry
   CustomerJob: 500
   CustomerJobStr: Becaria

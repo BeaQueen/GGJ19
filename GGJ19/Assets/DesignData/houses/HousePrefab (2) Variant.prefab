@@ -90,7 +90,7 @@ PrefabInstance:
     - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
       propertyPath: HouseType
-      value: 300
+      value: 3000
       objectReference: {fileID: 0}
     - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}

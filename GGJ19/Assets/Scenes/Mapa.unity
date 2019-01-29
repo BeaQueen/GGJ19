@@ -548,7 +548,7 @@ PrefabInstance:
     - target: {fileID: 5039755519559847313, guid: ab9e0701400e62c4b93ee42539dbe4d9,
         type: 3}
       propertyPath: m_Name
-      value: HousePrefab (17) Variant 1400
+      value: HousePrefab (17) Variant 2300
       objectReference: {fileID: 0}
     - target: {fileID: 5039755519559847326, guid: ab9e0701400e62c4b93ee42539dbe4d9,
         type: 3}
@@ -3034,7 +3034,7 @@ PrefabInstance:
     - target: {fileID: 7272250904722385164, guid: 8f846c53fdbf4294e9906dbbd1397c10,
         type: 3}
       propertyPath: m_Name
-      value: HousePrefab (7) Variant 1300
+      value: HousePrefab (7) Variant 4000
       objectReference: {fileID: 0}
     - target: {fileID: 7272250904722385155, guid: 8f846c53fdbf4294e9906dbbd1397c10,
         type: 3}
@@ -6718,7 +6718,7 @@ PrefabInstance:
     - target: {fileID: 2337228729537726764, guid: 908a940e09d4348429e0a0d4991a34bc,
         type: 3}
       propertyPath: m_Name
-      value: HousePrefab (13) Variant 2600
+      value: HousePrefab (13) Variant 3500
       objectReference: {fileID: 0}
     - target: {fileID: 2337228729537726755, guid: 908a940e09d4348429e0a0d4991a34bc,
         type: 3}
@@ -8366,7 +8366,7 @@ PrefabInstance:
     - target: {fileID: 7324784887404177402, guid: 79ea94fd32510ed4694c01423d574b3f,
         type: 3}
       propertyPath: m_Name
-      value: HousePrefab (18) Variant 2500
+      value: HousePrefab (18) Variant 900
       objectReference: {fileID: 0}
     - target: {fileID: 7324784887404177397, guid: 79ea94fd32510ed4694c01423d574b3f,
         type: 3}
@@ -8453,7 +8453,7 @@ PrefabInstance:
     - target: {fileID: 7090260673890237806, guid: 2ba0ada47a4b12742a593f9e7b492705,
         type: 3}
       propertyPath: m_Name
-      value: HousePrefab (2) Variant 600
+      value: HousePrefab (2) Variant 3300
       objectReference: {fileID: 0}
     - target: {fileID: 7090260673890237793, guid: 2ba0ada47a4b12742a593f9e7b492705,
         type: 3}
@@ -8919,7 +8919,7 @@ PrefabInstance:
     - target: {fileID: 1942212358085990380, guid: 393167c8cb0d92f45a3c53d90b198f2e,
         type: 3}
       propertyPath: m_Name
-      value: HousePrefab (6) Variant 700
+      value: HousePrefab (6) Variant 1600
       objectReference: {fileID: 0}
     - target: {fileID: 1942212358085990371, guid: 393167c8cb0d92f45a3c53d90b198f2e,
         type: 3}
@@ -11311,7 +11311,7 @@ PrefabInstance:
     - target: {fileID: 2922164769511514063, guid: 9cc7929463b389440a594d741c66f385,
         type: 3}
       propertyPath: m_Name
-      value: HousePrefab (1) Variant 800
+      value: HousePrefab (1) Variant 1700
       objectReference: {fileID: 0}
     - target: {fileID: 2922164769511514048, guid: 9cc7929463b389440a594d741c66f385,
         type: 3}
@@ -14055,7 +14055,7 @@ PrefabInstance:
     - target: {fileID: 5641731760485370799, guid: 2124343e3029d0d4881a9d1c13010a97,
         type: 3}
       propertyPath: m_Name
-      value: CustomerPrefab Variant -380
+      value: CustomerPrefab Variant -300
       objectReference: {fileID: 0}
     - target: {fileID: 8101915574663145601, guid: 2124343e3029d0d4881a9d1c13010a97,
         type: 3}
