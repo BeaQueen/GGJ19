@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 8990847517555122963, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
       propertyPath: m_Name
-      value: HousePrefab (14)
+      value: HousePrefab (14) Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8990847517555122972, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
@@ -30,17 +30,17 @@ PrefabInstance:
     - target: {fileID: 8990847517555122972, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8990847517555122972, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8990847517555122972, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8990847517555122972, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
@@ -69,23 +69,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
-      propertyPath: HouseZoneStr
-      value: El Pocillo (Buena)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
-        type: 3}
       propertyPath: HouseZone
       value: 2000
       objectReference: {fileID: 0}
     - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
-      propertyPath: HouseFurnitureStr
-      value: Normal
+      propertyPath: HouseZoneStr
+      value: El Pocillo (Buena)
       objectReference: {fileID: 0}
     - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
       propertyPath: HouseFurniture
-      value: 1000
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
+        type: 3}
+      propertyPath: HouseFurnitureStr
+      value: Normal
       objectReference: {fileID: 0}
     - target: {fileID: 5741961554479403062, guid: a43dc260a7c9b324da0426f9de006195,
         type: 3}
@@ -101,7 +101,7 @@ PrefabInstance:
         type: 3}
       propertyPath: HouseTypeImg
       value: 
-      objectReference: {fileID: 21300000, guid: d83f25c8e62ba37479b79b825d4afdef,
+      objectReference: {fileID: 21300000, guid: 66efe5ac1a486964aaf16e65aeedb475,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a43dc260a7c9b324da0426f9de006195, type: 3}

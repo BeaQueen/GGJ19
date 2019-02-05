@@ -3,8 +3,7 @@
 --- !u!1 &3416903890921680313
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9150212663270015531, guid: 8b23d1925299e3b4abf4a5e03b933f51,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
@@ -21,12 +20,11 @@ GameObject:
 --- !u!4 &3416903890921680318
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9150212663270015528, guid: 8b23d1925299e3b4abf4a5e03b933f51,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3416903890921680313}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -36,8 +34,7 @@ Transform:
 --- !u!114 &3416903890921680319
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9150212663270015529, guid: 8b23d1925299e3b4abf4a5e03b933f51,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3416903890921680313}
@@ -52,8 +49,8 @@ MonoBehaviour:
   CustomerViceStr: Golosinas
   CustomerJob: 3000
   CustomerJobStr: Influencer
-  CustomerChildren: -35
+  CustomerChildren: -1500
   CustomerChildrenStr: 4
   CustomerPets: 0
   CustomerPetsStr: Hormiguero
-  CustomerPhoto: {fileID: 21300000, guid: 04ebf7a388b151d4a886e96d7672c692, type: 3}
+  CustomerPhoto: {fileID: 21300000, guid: 80d3cd2b2c7b539458d7762f8f9802c8, type: 3}

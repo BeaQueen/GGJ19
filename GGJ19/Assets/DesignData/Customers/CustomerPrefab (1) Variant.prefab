@@ -45,12 +45,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomerVirtue: 0
   CustomerVirtueStr: Deportista
-  CustomerVice: -90
+  CustomerVice: -400
   CustomerViceStr: Hardcore Gamer
-  CustomerJob: 900
+  CustomerJob: 800
   CustomerJobStr: Junior Game Dev
   CustomerChildren: 0
   CustomerChildrenStr: Ninguno
   CustomerPets: 0
   CustomerPetsStr: Peces
-  CustomerPhoto: {fileID: 21300000, guid: 87f78ff73cf370e47b9eb0d40c957a35, type: 3}
+  CustomerPhoto: {fileID: 21300000, guid: 9622899ba1a972e448a59e86c81858e1, type: 3}

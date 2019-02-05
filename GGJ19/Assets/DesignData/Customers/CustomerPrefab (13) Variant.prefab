@@ -3,8 +3,7 @@
 --- !u!1 &7028794180879993057
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 2274213430599817885, guid: b8f5b2e4c6cfd7a45928a66681e0ef51,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
@@ -21,12 +20,11 @@ GameObject:
 --- !u!4 &7028794180879993056
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 2274213430599817886, guid: b8f5b2e4c6cfd7a45928a66681e0ef51,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7028794180879993057}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -36,8 +34,7 @@ Transform:
 --- !u!114 &7028794180879993063
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 2274213430599817887, guid: b8f5b2e4c6cfd7a45928a66681e0ef51,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7028794180879993057}
@@ -52,8 +49,8 @@ MonoBehaviour:
   CustomerViceStr: Zapas de marca
   CustomerJob: 3000
   CustomerJobStr: Influencer
-  CustomerChildren: -45
+  CustomerChildren: -450
   CustomerChildrenStr: 3
-  CustomerPets: -70
+  CustomerPets: -100
   CustomerPetsStr: Gato
-  CustomerPhoto: {fileID: 21300000, guid: 04ebf7a388b151d4a886e96d7672c692, type: 3}
+  CustomerPhoto: {fileID: 21300000, guid: 62d8ce200ac9d8341bd3049bfc6db49d, type: 3}

@@ -3,8 +3,7 @@
 --- !u!1 &4543376101529615893
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 2111054240174759916, guid: 984d7aa052060d9488937ec41f01aca8,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
@@ -21,12 +20,11 @@ GameObject:
 --- !u!4 &4543376101529615892
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 2111054240174759919, guid: 984d7aa052060d9488937ec41f01aca8,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4543376101529615893}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -36,8 +34,7 @@ Transform:
 --- !u!114 &4543376101529615895
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 2111054240174759918, guid: 984d7aa052060d9488937ec41f01aca8,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4543376101529615893}
@@ -52,8 +49,8 @@ MonoBehaviour:
   CustomerViceStr: Ecologista
   CustomerJob: 8500
   CustomerJobStr: "Br\xF3ker"
-  CustomerChildren: -100
+  CustomerChildren: -1000
   CustomerChildrenStr: 6
   CustomerPets: -85
   CustomerPetsStr: Serpiente
-  CustomerPhoto: {fileID: 21300000, guid: 04ebf7a388b151d4a886e96d7672c692, type: 3}
+  CustomerPhoto: {fileID: 21300000, guid: 4b6c4e487a233fd478b932c1aacfc77c, type: 3}

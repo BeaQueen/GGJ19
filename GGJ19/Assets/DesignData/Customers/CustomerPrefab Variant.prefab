@@ -45,11 +45,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomerVirtue: 0
   CustomerVirtueStr: Coleccionista
-  CustomerVice: -80
+  CustomerVice: 0
   CustomerViceStr: Furry
-  CustomerJob: 900
+  CustomerJob: 500
   CustomerJobStr: Becaria
-  CustomerChildren: -100
+  CustomerChildren: -800
   CustomerChildrenStr: 5
   CustomerPets: 0
   CustomerPetsStr: Ninguna

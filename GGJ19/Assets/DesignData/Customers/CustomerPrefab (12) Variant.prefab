@@ -3,8 +3,7 @@
 --- !u!1 &271540446845691897
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6093047041309637989, guid: e0697a354ff95034da7545c725ad84e1,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
@@ -21,12 +20,11 @@ GameObject:
 --- !u!4 &271540446845691898
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6093047041309637990, guid: e0697a354ff95034da7545c725ad84e1,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 271540446845691897}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -36,8 +34,7 @@ Transform:
 --- !u!114 &271540446845691899
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6093047041309637991, guid: e0697a354ff95034da7545c725ad84e1,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 271540446845691897}
@@ -48,12 +45,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CustomerVirtue: 500
   CustomerVirtueStr: Tiene un ducado
-  CustomerVice: -80
+  CustomerVice: -1000
   CustomerViceStr: Ropa de marca
   CustomerJob: 3000
-  CustomerJobStr: Publicista
-  CustomerChildren: -65
+  CustomerJobStr: Controlador de Aeropuertos
+  CustomerChildren: -750
   CustomerChildrenStr: 3
   CustomerPets: 0
   CustomerPetsStr: Ninguna
-  CustomerPhoto: {fileID: 21300000, guid: 04ebf7a388b151d4a886e96d7672c692, type: 3}
+  CustomerPhoto: {fileID: 21300000, guid: 7ef505aaa546aeb4a9a790def52defd6, type: 3}
