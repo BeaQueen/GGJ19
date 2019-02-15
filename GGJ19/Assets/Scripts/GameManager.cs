@@ -51,6 +51,9 @@ public class GameManager : MonoBehaviour
 
     int AccTotal;
     int sumTotal;
+    int AccgoodMatch;
+    int AccwrongMatch;
+
     int max_Next;
     int max_Match;
 
@@ -58,12 +61,20 @@ public class GameManager : MonoBehaviour
     public Button Match_Button;
     public GameObject MapApp;
     public GameObject endCanvas;
+    public Animator HousesApp;
 
     public SpriteRenderer spriteEnd;
-    public Text totalText;
-
+    public Text totalWrongMatch;
+    public Text totalGoodMatch;
+    public Text totalMoney;
     public Sprite winSprite;
     public Sprite loseSprite;
+    public Sprite spriteEmpty;
+
+    public SpriteRenderer matchResult;
+    public Sprite xSprite;
+    public Sprite checkSprite;
+
 
 
     // Start is called before the first frame update
@@ -105,11 +116,13 @@ public class GameManager : MonoBehaviour
         Next_Button.interactable = true;
         max_Next = 0;
 
-        //Mostrar y activar botón match
+        matchResult.sprite = null;
+
     }
 
     public void NextCustomer()
     {
+
         if (max_Next < 9)
         {
             //Random customer
@@ -120,36 +133,70 @@ public class GameManager : MonoBehaviour
             m_customerSeen[CustomerIndex] = true;
             CustomerManager.Instance.ShowCustomer(CustomerIndex);
             ++max_Next;
+
+
         }
         else
             Next_Button.interactable = false;
+
     }
 
     public void Match()
     {
-        if (max_Match < 9)
+        
+        int sumHouseMoney = HousesManager.Instance.CalculateHouseMoney(HouseIndex);
+        int sumCustomerMoney = CustomerManager.Instance.CalculateCustomerMoney(CustomerIndex);
+
+        sumTotal = sumCustomerMoney - sumHouseMoney;
+
+
+        AccTotal += sumTotal;
+        AccHousesMoney += sumHouseMoney;
+        AccCustomersMoney += sumCustomerMoney;
+
+        Next_Button.interactable = false;
+
+        Debug.Log("AccTotal: " + AccTotal);
+        Debug.Log("AccHousesMoney: " + AccHousesMoney);
+        Debug.Log("AccCustomersMoney: " + AccCustomersMoney);
+
+        Match_Button.interactable = false;
+
+        //Variable Match antigua (no se usa ahora)
+        ++max_Match;
+
+        if(sumTotal >= 0)
         {
-            int sumHouseMoney = HousesManager.Instance.CalculateHouseMoney(HouseIndex);
-            int sumCustomerMoney = CustomerManager.Instance.CalculateCustomerMoney(CustomerIndex);
-
-            sumTotal = sumCustomerMoney - sumHouseMoney;
-
-            Debug.Log("Total: " + sumTotal);
-
-            AccTotal += sumTotal;
-            AccHousesMoney += sumHouseMoney;
-            AccCustomersMoney += sumCustomerMoney;
-
-            Debug.Log("AccTotal: " + AccTotal);
-            Debug.Log("AccHousesMoney: " + AccHousesMoney);
-            Debug.Log("AccCustomersMoney: " + AccCustomersMoney);
-
-            Match_Button.interactable = false;
-
-            ++max_Match;
+            AccgoodMatch++;
+            matchResult.sprite = checkSprite;
+            this.GetComponent<Animator>().Play("AppWait");
         }
         else
+        {
+            AccwrongMatch++;
+            matchResult.sprite = xSprite;
+            HousesApp.Play("AppShake");
+            this.GetComponent<Animator>().Play("AppWait");
+        }
+
+        Debug.Log("Suma Casa: " + sumHouseMoney);
+        Debug.Log("Suma Cliente: " + sumCustomerMoney);
+
+        Debug.Log("Suma TOTAL: " + sumTotal);
+        Debug.Log("Match ganados: " + AccgoodMatch);
+        Debug.Log("Match perdidos: " + AccwrongMatch);
+
+
+
+        if (AccgoodMatch >= 5 || AccwrongMatch >= 5)
             EndGame();
+    }
+
+    public void AppsWait()
+    {
+        HousesApp.SendMessage("OutroHouses");
+        MapApp.SendMessage("IntroMap");
+
     }
 
     public void EndGame()
@@ -157,18 +204,20 @@ public class GameManager : MonoBehaviour
         //Hacer los cálculos entre AccHousesMoney y AccCustomersMoney, y
         //mostrar el pop-up con el dinero/puntuación final
 
-        totalText.text = AccTotal.ToString();
+        totalWrongMatch.text = AccwrongMatch.ToString();
+        totalGoodMatch.text = AccgoodMatch.ToString();
+        totalMoney.text = AccTotal.ToString();
+
 
         if (AccTotal > 0)
         {
             spriteEnd.sprite = winSprite;
-            totalText.color = Color.black;
+         
         }
         else
         {
             spriteEnd.sprite = loseSprite;
-            totalText.color = Color.red;
-
+            totalMoney.color = Color.red;
         }
 
         endCanvas.SendMessage("IntroEndCanvas");

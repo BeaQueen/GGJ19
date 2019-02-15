@@ -10,6 +10,7 @@ public class InterfaceCanvasScript : MonoBehaviour {
     public GameObject houses;
     public Button Match_Button;
 
+
     // Use this for initialization
     void Start () {
         
@@ -17,8 +18,8 @@ public class InterfaceCanvasScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+
+    }
 
     public void MapAppIntro()
     {
